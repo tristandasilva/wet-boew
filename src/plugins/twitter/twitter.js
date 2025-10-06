@@ -143,14 +143,42 @@ var componentName = "wb-twitter",
 				} );
 			}
 
-			Modernizr.load( {
-				load: ( protocol.indexOf( "http" ) === -1 ? "http:" : protocol ) + "//platform.twitter.com/widgets.js",
-				complete: function() {
+			// Load the Twitter widget script
+			const script = document.createElement( "script" );
+			script.src = ( protocol.indexOf( "http" ) === -1 ? "http:" : protocol ) + "//platform.twitter.com/widgets.js";
+			script.onload = function() {
+				let timelineLoaded = false;
 
-					// Identify that initialization has completed
-					wb.ready( $( eventTarget ), componentName );
-				}
-			} );
+				// The script will allow 5 seconds for the timeline to load, after which it will fallback to a link to the Twitter page
+				const timeout = setTimeout( function() {
+					if ( !timelineLoaded ) {
+						const fallbackLink = document.createElement( "a" );
+						const fallbackLinkText = eventTarget.querySelector( "a.twitter-timeline" ).textContent || i18nText.timelineTitle;
+						fallbackLink.href = twitterLink.href;
+						fallbackLink.textContent = fallbackLinkText;
+						eventTarget.innerHTML = "";
+						eventTarget.appendChild( fallbackLink );
+						wb.ready( $( eventTarget ), componentName );
+					}
+				}, 5000 );
+
+				const observer = new MutationObserver( function( mutations ) {
+					mutations.forEach( function( mutation ) {
+						if ( mutation.type === "childList" ) {
+							mutation.addedNodes.forEach( function( addedNode ) {
+								if ( addedNode.nodeName === "IFRAME" ) {
+									timelineLoaded = true;
+									clearTimeout( timeout );
+									wb.ready( $( eventTarget ), componentName );
+								}
+							} );
+						}
+					} );
+				} );
+
+				observer.observe( eventTarget, { childList: true, subtree: true } );
+			};
+			document.head.appendChild( script );
 		}
 	},
 
