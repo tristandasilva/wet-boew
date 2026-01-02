@@ -1,0 +1,29 @@
+---
+{
+	"title": "Prototype CSV vers Tables",
+	"language": "fr",
+	"category": "Plugins",
+	"description": "Permet d'intégrer le plugin DataTables dans WET en fournissant des fonctionnalités avancées telles que la recherche, le tri, le filtrage, la pagination et autres pour les tableaux.",
+	"tag": "tables",
+	"parentdir": "tables",
+	"altLangPrefix": "tables-csv",
+	"dateModified": "2025-01-16"
+}
+---
+<section>
+	<h2>Exemple</h2>
+	<p>Charge des données directement d'un fichier CSV et remplit un tableau en utilisant <a href="https://www.datatables.net">DataTables</a> dans WET fournissant des fonctionnalités avancées telles que la recherche, le tri, le filtrage, la pagination et autres.</p>
+
+	<h3>Exemple 1</h3>
+	<pre>&lt;table class="wb-tables table" data-wb-csv="ajax/team-ontario-games-fr.csv"&gt;</pre>
+	<p>Cet exemple utilise des données qui viennent de Données Ouvertes, montrant la participation de l'équipe de l'Ontario aux Jeux du Canada.</p>
+	<table class="wb-tables table" data-wb-csv="ajax/team-ontario-games-fr.csv"></table>
+
+	<h3>Exemple 2</h3>
+	<pre>&lt;table class="wb-tables table table-striped table-hover" data-wb-csv="ajax/eqarchive-fr.csv"&gt;</pre>
+	<p>Cet exemple utilise des données qui viennent de Données Ouvertes, montrant les données des tremblements de terre de 2019.</p>
+	<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering": false }' data-wb-csv="ajax/eqarchive-fr.csv"></table>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="tables-csv.js"></script>

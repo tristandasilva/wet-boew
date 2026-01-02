@@ -1,0 +1,29 @@
+---
+{
+	"title": "CSV to Tables Prototype",
+	"language": "en",
+	"category": "Plugins",
+	"description": "Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.",
+	"tag": "tables",
+	"parentdir": "tables",
+	"altLangPrefix": "tables-csv",
+	"dateModified": "2025-01-16"
+}
+---
+<section>
+	<h2>Example</h2>
+	<p>Loads data directly from a CSV file and populates a table using the <a href="https://www.datatables.net">DataTables</a> plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.</p>
+
+	<h3>Example 1</h3>
+	<pre>&lt;table class="wb-tables table" data-wb-csv="ajax/team-ontario-games-en.csv"&gt;</pre>
+	<p>This example uses data from Open Data, showing the participation of Team Ontario in the Canada Games.</p>
+	<table class="wb-tables table" data-wb-csv="ajax/team-ontario-games-en.csv"></table>
+
+	<h3>Example 2</h3>
+	<pre>&lt;table class="wb-tables table table-striped table-hover" data-wb-csv="ajax/eqarchive-en.csv"&gt;</pre>
+	<p>This example uses data from Open Data, showing earthquake data from 2019.</p>
+	<table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering": false }' data-wb-csv="ajax/eqarchive-en.csv"></table>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="tables-csv.js"></script>
