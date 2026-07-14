@@ -78,54 +78,227 @@ var componentName = "wb-tables",
 				dom: "<'top'fil>rt<'bottom'p><'clear'>"
 			};
 
-			Modernizr.load( {
-				load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
-				testReady: function() {
-					return ( $.fn.dataTable && $.fn.dataTable.version );
-				},
-				complete: function() {
-					var $elm = $( "#" + elmId ),
-						dataTableExt = $.fn.dataTableExt,
-						settings = wb.getData( $elm, componentName ) || {};
+			var csvUrl = elm.getAttribute( "data-wb-csv" );
 
-					// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
-					if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
-						settings.paging = settings.paging ? settings.paging : false;
-					}
+			if ( csvUrl ) {
 
-					/*
-					 * Extend sorting support
-					 */
-					$.extend( dataTableExt.type.order, {
+				// CSV data source: fetch and parse the file, build the table
+				// header from the parsed fields, then initialize DataTables with
+				// the resulting data array. The header is built in the DOM so
+				// DataTables can measure/render its columns, while the body rows
+				// are supplied as data with deferRender enabled, so only the
+				// visible page is rendered to the DOM.
 
-						// Enable internationalization support in the sorting
-						"html-pre": function( a ) {
-							return wb.normalizeDiacritics(
-								!a ? "" : a.replace ?
-									a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
-							);
-						},
-						"string-case-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-						"string-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-
-						// Formatted number sorting
-						"formatted-num-asc": function( a, b ) {
-							return wb.formattedNumCompare( a, b );
-						},
-						"formatted-num-desc": function( a, b ) {
-							return wb.formattedNumCompare( b, a );
+				// Fetch the CSV file to load into DataTables
+				fetch( csvUrl )
+					.then( function( response ) {
+						if ( !response.ok ) {
+							throw new Error( "Failed to fetch CSV file from " + csvUrl + ": " + response.statusText );
 						}
-					} );
+						return response.text();
+					} )
+					.then( function( csvText ) {
 
-					// Create the DataTable object
-					$elm.dataTable( $.extend( true, {}, defaults, window[ componentName ], settings ) );
-				}
-			} );
+						// Parse the file
+						var result = parseCSV( csvText );
+
+						// Build the table header from the parsed CSV columns
+						buildHead( document.getElementById( elmId ), result.fields );
+
+						// Load the DataTable with the parsed CSV data, deferRender enabled so only the visible page is rendered to the DOM
+						loadDataTable( elmId, {
+							data: result.data,
+							columns: result.fields.map( function( field ) {
+								return { data: field };
+							} ),
+							deferRender: true
+						} );
+					} )
+					.catch( function( e ) {
+						console.error( e );
+					} );
+			} else {
+
+				// Load table normally, no CSV file involved
+				loadDataTable( elmId );
+			}
 		}
+	},
+
+	/**
+	 * @method loadDataTable
+	 * @param {string} elmId Id of the table element to initialize
+	 * @param {Object} extraSettings Optional settings merged into the DataTables
+	 *        config (e.g., data/columns/deferRender for the CSV data source)
+	 */
+	loadDataTable = function( elmId, extraSettings ) {
+
+		Modernizr.load( {
+			load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
+			testReady: function() {
+				return ( $.fn.dataTable && $.fn.dataTable.version );
+			},
+			complete: function() {
+				var $elm = $( "#" + elmId ),
+					dataTableExt = $.fn.dataTableExt,
+					settings = wb.getData( $elm, componentName ) || {},
+					config;
+
+				// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
+				if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
+					settings.paging = settings.paging ? settings.paging : false;
+				}
+
+				/*
+				 * Extend sorting support
+				 */
+				$.extend( dataTableExt.type.order, {
+
+					// Enable internationalization support in the sorting
+					"html-pre": function( a ) {
+						return wb.normalizeDiacritics(
+							!a ? "" : a.replace ?
+								a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
+						);
+					},
+					"string-case-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+					"string-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+
+					// Formatted number sorting
+					"formatted-num-asc": function( a, b ) {
+						return wb.formattedNumCompare( a, b );
+					},
+					"formatted-num-desc": function( a, b ) {
+						return wb.formattedNumCompare( b, a );
+					}
+				} );
+
+				config = $.extend( true, {}, defaults, window[ componentName ], settings );
+
+				// Merge any extra settings (e.g., CSV-derived data/columns) using
+				// a shallow extend so the potentially large data array is passed
+				// by reference rather than deep-cloned.
+				if ( extraSettings ) {
+					config = $.extend( config, extraSettings );
+				}
+
+				// Create the DataTable object
+				$elm.dataTable( config );
+			}
+		} );
+	},
+
+	/**
+	 * @method buildHead
+	 * @param {HTMLElement} table The table element to append the header to
+	 * @param {string[]} fields The header names to create <th> cells for
+	 * @overview Builds a <thead> row from the parsed CSV field names so that
+	 *           DataTables has header cells to measure and render its columns.
+	 *           Only the header is built in the DOM; the body rows are supplied
+	 *           to DataTables as data (see the CSV branch in init).
+	 */
+	buildHead = function( table, fields ) {
+
+		var thead = document.createElement( "thead" ),
+			tr = document.createElement( "tr" );
+
+		fields.forEach( function( field ) {
+			var th = document.createElement( "th" );
+			th.textContent = field;
+			tr.appendChild( th );
+		} );
+		thead.appendChild( tr );
+		table.appendChild( thead );
+	},
+
+	/**
+	 * @method parseCSV
+	 * @param {string} text Raw CSV text
+	 * @returns {Object} An object with a "fields" array (the header names) and a
+	 *          "data" array of row objects keyed by header name.
+	 * @overview Minimal RFC 4180 CSV parser. Handles quoted fields, embedded
+	 *           commas/newlines and escaped "" quotes. Values are not trimmed.
+	 */
+	parseCSV = function( text ) {
+
+		// Strip a UTF-8 byte-order mark if present, so the first header
+		// name doesn't come through as "\uFEFF" + name.
+		if ( text.charCodeAt( 0 ) === 0xFEFF ) {
+			text = text.slice( 1 );
+		}
+
+		var rows = [],
+			row = [],
+			field = "",
+			inQuotes = false,
+			i = 0,
+			len = text.length,
+			fields, data, character;
+
+		while ( i < len ) {
+			character = text[ i ];
+
+			if ( inQuotes ) {
+				if ( character === "\"" ) {
+					if ( text[ i + 1 ] === "\"" ) {
+						field += "\""; // Escaped quote
+						i += 2;
+						continue;
+					}
+					inQuotes = false;
+					i++;
+					continue;
+				}
+				field += character;
+				i++;
+				continue;
+			}
+
+			if ( character === "\"" ) {
+				inQuotes = true;
+			} else if ( character === "," ) {
+				row.push( field );
+				field = "";
+			} else if ( character === "\n" ) {
+				row.push( field );
+				rows.push( row );
+				row = [];
+				field = "";
+			} else if ( character !== "\r" ) { // Ignore CR (handles CRLF)
+				field += character;
+			}
+			i++;
+		}
+
+		// Flush the final field/row (files without a trailing newline)
+		if ( field !== "" || row.length > 0 ) {
+			row.push( field );
+			rows.push( row );
+		}
+
+		// Drop fully empty lines
+		rows = rows.filter( function( r ) {
+			return !( r.length === 1 && r[ 0 ] === "" );
+		} );
+
+		if ( rows.length === 0 ) {
+			return { fields: [], data: [] };
+		}
+
+		fields = rows[ 0 ];
+		data = rows.slice( 1 ).map( function( r ) {
+			var obj = {};
+			fields.forEach( function( name, index ) {
+				obj[ name ] = index < r.length ? r[ index ] : "";
+			} );
+			return obj;
+		} );
+
+		return { fields: fields, data: data };
 	},
 	updatePaginationMarkup = function( $pagination, setFocusOnId ) {
 
