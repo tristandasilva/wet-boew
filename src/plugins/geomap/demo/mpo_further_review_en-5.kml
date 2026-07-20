@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Projects referred to MPO further review</name>
+<Schema name="mpo_further_review" id="mpo_further_review">
+	<SimpleField name="Title" type="string"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Proponent" type="string"></SimpleField>
+	<SimpleField name="Sector" type="string"></SimpleField>
+	<SimpleField name="FullProject" type="string"></SimpleField>
+</Schema>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Title">LNG Canada Phase 2</SimpleData>
+		<SimpleData name="Location">Kitimat, British Columbia</SimpleData>
+		<SimpleData name="Proponent">LNG Canada</SimpleData>
+		<SimpleData name="Sector">Energy</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/lng-canada.html" title="LNG Canada Phase 2"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-128.59520, 54.00641</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Title">Darlington New Nuclear Project</SimpleData>
+		<SimpleData name="Location">Bowmanville, Ontario</SimpleData>
+		<SimpleData name="Proponent">Ontario Power Generation</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/darlington.html" title="Darlington New Nuclear Project"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-78.7057, 43.8733</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Title">Contrecoeur Container Terminal Project</SimpleData>
+		<SimpleData name="Location">Contrecoeur, Quebec</SimpleData>
+		<SimpleData name="Proponent">Montreal Port Authority</SimpleData>
+		<SimpleData name="Sector">Industrial</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/contrecoeur.html" title="Contrecoeur Container Terminal Project"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-73.29284388715229, 45.82262941074753</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Title">McIlvenna Bay Foran Copper Mine Project</SimpleData>
+		<SimpleData name="Location">East-Central, Saskatchewan</SimpleData>
+		<SimpleData name="Proponent">Foran Mining</SimpleData>
+		<SimpleData name="Sector">Mining</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/mcilvenna.html" title="McIlvenna Bay Foran Copper Mine Project"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-102.895, 54.659</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Title">Red Chris Mine Expansion</SimpleData>
+		<SimpleData name="Location">Northwest, British Columbia</SimpleData>
+		<SimpleData name="Proponent">Newmont Mining and Imperial Metals</SimpleData>
+		<SimpleData name="Sector">Mining</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/red-chris.html" title="Red Chris Mine Expansion"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-129.865, 57.673</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Title">North Coast Transmission Line (Phase 1)</SimpleData>
+		<SimpleData name="Location">Northwest British Columbia</SimpleData>
+		<SimpleData name="Proponent">BC Hydro</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/nctl.html" title="North Coast Transmission Line (Phase 1)"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-122.6114881019157, 53.852094573034755</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Title">North Coast Transmission Line (Phase 2)</SimpleData>
+		<SimpleData name="Location">Northwest British Columbia</SimpleData>
+		<SimpleData name="Proponent">BC Hydro</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/nctl.html" title="North Coast Transmission Line (Phase 2)"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-125.01224001230118, 54.073341575677</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Title">North Coast Transmission Line (Phase 3)</SimpleData>
+		<SimpleData name="Location">Northwest British Columbia</SimpleData>
+		<SimpleData name="Proponent">BC Hydro</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/nctl.html" title="North Coast Transmission Line (Phase 3)"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-128.63208420029474, 54.45476893079569</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Title">Ksi Lisims LNG</SimpleData>
+		<SimpleData name="Location">Pearse Island, British Columbia</SimpleData>
+		<SimpleData name="Proponent">Western LNG, Nisg̱a’a First Nation, Rockies LNG Partners</SimpleData>
+		<SimpleData name="Sector">Energy</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/ksi-lisims.html" title="Ksi Lisims LNG"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-130.183079, 55.0290668</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Title">Canada Nickel’s Crawford Project</SimpleData>
+		<SimpleData name="Location">Timmins, Ontario</SimpleData>
+		<SimpleData name="Proponent">Canada Nickel Company</SimpleData>
+		<SimpleData name="Sector">Mining</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/crawford.html" title="Canada Nickel’s Crawford Project"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-81.37309, 48.83972</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Title">Nouveau Monde Graphite’s Matawinie Mine</SimpleData>
+		<SimpleData name="Location">Saint-Michel-des-Saints, Québec</SimpleData>
+		<SimpleData name="Proponent">Nouveau Monde Graphite</SimpleData>
+		<SimpleData name="Sector">Mining</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/nouveau-monde.html" title="Nouveau Monde Graphite’s Matawinie Mine"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-73.9212, 46.61728</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="Title">Northcliff Resources’ Sisson Mine</SimpleData>
+		<SimpleData name="Location">Sisson Brook, New Brunswick</SimpleData>
+		<SimpleData name="Proponent">Northcliff Resources Ltd.</SimpleData>
+		<SimpleData name="Sector">Mining, Critical Minerals</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/northcliff.html" title="Northcliff Resources’ Sisson Mine"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-67.045, 46.365</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="Title">Iqaluit Nukkiksautiit Hydro Project</SimpleData>
+		<SimpleData name="Location">Iqaluit, Nunavut</SimpleData>
+		<SimpleData name="Proponent">Nunavut Nukkiksautiit Corporation</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/nukkiksautiit.html" title="Iqaluit Nukkiksautiit Hydro Project"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-68.005821, 64.187387</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="Title">Taltson Hydro Expansion</SimpleData>
+		<SimpleData name="Location">Great Slave Lake region, Northwest Territories</SimpleData>
+		<SimpleData name="Proponent">Government of the Northwest Territories</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/taltson.html" title="Taltson Hydro Expansion"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-111.39158077708119, 60.4194529158323</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="Title">Mackenzie Valley Highway</SimpleData>
+		<SimpleData name="Location">Routing still being developed, from Wrigley to Inuvik, Northwest Territories</SimpleData>
+		<SimpleData name="Proponent">Government of the Northwest Territories</SimpleData>
+		<SimpleData name="Sector">Transport</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/mackenzie.html" title="Mackenzie Valley Highway"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-123.47848257484667, 63.23219969058379 -133.72957277713178, 68.35916254842212</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="Title">Grays Bay Road and Port</SimpleData>
+		<SimpleData name="Location">Kitikmeot Region, Nunavut</SimpleData>
+		<SimpleData name="Proponent">West Kitikmeot Resources Corporation</SimpleData>
+		<SimpleData name="Sector">Transport</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/grays-bay.html" title="Grays Bay Port and Road"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-111.0500000277534, 67.816667002626 -110.922398, 65.404595</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="Title">Arctic Economic and Security Corridor</SimpleData>
+		<SimpleData name="Location">Slave Geological Province/North Slave Region, Northwest Territories</SimpleData>
+		<SimpleData name="Proponent">Partnership between the Tłı̨chǫ Government, Yellowknives Dene First Nation, and the Government of the Northwest Territories</SimpleData>
+		<SimpleData name="Sector">Transport</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/aesc.html" title="Arctic Economic and Security Corridor"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-114.37029928287245, 62.453916021605835 -110.922398, 65.404595</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="Title">Deep Geological Repository</SimpleData>
+		<SimpleData name="Location">Ignace, Ontario</SimpleData>
+		<SimpleData name="Proponent">Nuclear Waste Management Organization</SimpleData>
+		<SimpleData name="Sector">Electricity</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/geo.html" title="Deep Geological Repository"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-92.215273, 49.523597</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="Title">West Coast Oil Pipeline</SimpleData>
+		<SimpleData name="Location">Bruderheim, Alberta area to Robert Banks area in British Columbia</SimpleData>
+		<SimpleData name="Proponent">Government of Alberta</SimpleData>
+		<SimpleData name="Sector">Energy</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/west.html" title="West Coast Oil Pipeline"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-113.053706, 53.818472 -123.124706, 49.052564</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#900A_64th_ProducingMines">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="Title">Roberts Bank Terminal 2</SimpleData>
+		<SimpleData name="Location">Delta, British Columbia</SimpleData>
+		<SimpleData name="Proponent">Vancouver Fraser Port Authority (VFPA)</SimpleData>
+		<SimpleData name="Sector">Transportation</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="/en/privy-council/major-projects-office/projects/national/roberts-bank.html" title="Roberts Bank Terminal 2"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-123.184531, 49.018375</coordinates></Point>
+</Placemark>
+</Folder></Document></kml>

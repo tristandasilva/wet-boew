@@ -1,0 +1,153 @@
+---
+{
+    "title": "Geomap (Test)",
+    "language": "en",
+    "category": "Plugins",
+    "description": "Geomap test page",
+    "tag": "geomap-test",
+    "parentdir": "geomap",
+    "altLangPrefix": "geomap",
+    "js": ["demo/client_functions"],
+    "dateModified": "2025-11-18",
+}
+---
+
+<div style="background-color: #f4f4f6;">
+	<section class="container">
+		<h1 style="border-bottom: 4px solid #ce9f1c; margin-bottom: 20px;"><a
+				id="wb-cont"
+			></a>Projects and transformative strategies map</h1>
+		<p
+			style="color: #1a3d38; line-height: 1.2; margin-bottom: 25px; margin-top: 20px;"
+		>Use the map below to browse projects referred to the Major Projects
+			Office for further assessment and consultations.</p>
+
+		<!--*********************************************************************************-->
+
+		<div
+			id="privy_map"
+			class="wb-geomap geocoder legend-label-only"
+			data-wb-geomap="{
+               &quot;mapExtent&quot;: &quot;78, -105, 44, -75&quot;,
+		&quot;overlays&quot;: [
+			{
+				&quot;title&quot;: &quot;Projects referred to the Major Projects Office for further review&quot;,
+				&quot;caption&quot;: &quot;&quot;,
+				&quot;type&quot;: &quot;kml&quot;,
+				&quot;url&quot;: &quot;demo/mpo_further_review_en-5.kml&quot;,
+				&quot;datatable&quot;: true,
+				&quot;tooltips&quot;: true,
+				&quot;popups&quot;: true,
+				&quot;attributes&quot;: {
+					&quot;Title&quot;: &quot;Title&quot;,
+					&quot;Location&quot;: &quot;Location&quot;,
+					&quot;Proponent&quot;: &quot;Proponent&quot;,
+					&quot;Sector&quot;: &quot;Sector&quot;,
+					&quot;FullProject&quot;: &quot;Full&nbsp;project&quot;
+				},
+				&quot;style&quot;: {
+					&quot;type&quot;: &quot;symbol&quot;,
+					&quot;init&quot;: {
+						&quot;externalGraphic&quot;: &quot;demo/01-icon-brown-circle-mpo-trans-sm.png&quot;,
+						&quot;graphicOpacity&quot;: &quot;1&quot;,
+						&quot;graphicWidth&quot;: &quot;32&quot;,
+						&quot;graphicHeight&quot;: &quot;32&quot;
+					},
+					&quot;select&quot;: {
+						&quot;externalGraphic&quot;: &quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAB2IAAAdiATh6mdsAAALvSURBVEhLlZZNaBNBFMffzDYbi1WrEQp+HBRRQXvwpPQieFNpU2tbeigoWCrVm5daQUPx4MmTgh8g4le1TWpNSj0ponjVUi1+FYoHBT30G2ybZPf5ZvJInO5uEn+H7Pu/t7v/3dk3MxFQArexMZJF+xQi1JPcKwRUUzxL8bgAkaqwnTsykZjWJwcQaIJUyzS0nEEhrtBJazjtAQHnBUK3nYrf5JQHXxOEmMw0fLoFQnRwqiSI7g07lThLN6TnM5F8NMhGP8f+x0AhhOzKRFt6WBp43mQ52lxL3u+pUMEpjdi1E+ShgwAb1gNMTYP76jXg1wmu5qBvlUYpalc96//GKY3HZKmh9YEU0M5SY7W3gWw+xqqAmxgC5+ETVjlorG6HkwOnWWqM4cLOzhC5NrLUyLoDvgYKlZd1+1kxCMcxFjPua4j07+nd1KJVLDWy/ghH/sijhznKQddHlsa+bGOpMUwEWJ5WFVs2ceSP2LqZowKWm93IocbsLuEuc5QH/yxy5A8uLnFUAC0rw6HGMAllQpP04Yw+x3ejHPmzsq6ut93KSZYac7hG+mZo9o6z1DgDg4DUsn6ovKr/iwD8IJL31LKTxxwuAoU7xGGO2Tlwei4Bjo5RkV+SjkqrvKoboHzKUR7PPFlsatous9aEoCnMqQLr1oKIROgNpgDm5jlZgLwdV4gdlcn+75zSeEwU6Wirehr/yVEUjNvJeCuLPN6nJRCdy/TrsiwLpBWSBpGu8+JrEk4NqpZ5nFPlQXvL/XAy8ZGlga+JIpPFbvrMCyyLQ5tYOou+K7Ai0GT1SOInjcBFlsVB90LV8/gvVh4CTRThfXuu0Ti/YekLfYuXoeFE4K6oKGoientdG+QJtcVyyoDyMyHLPkktaqwSKylqohC657GLZR61fEhXdsihRz84FUhJEwV1TR/d9DrLHAhXQ8P9ntntR1kmCrum+hzN6LcqpmF6YYfxvC6Uge+MD2Khvq0mLJy7FTa2l/qvVQDgL8eoBeXr6AC6AAAAAElFTkSuQmCC&quot;,
+						&quot;graphicWidth&quot;: &quot;30.5&quot;,
+						&quot;graphicHeight&quot;: &quot;32&quot;,
+						&quot;graphicOpacity&quot;: &quot;1&quot;
+					}
+				}
+			},
+			{
+				&quot;title&quot;: &quot;Transformative strategies&quot;,
+				&quot;caption&quot;: &quot;&quot;,
+				&quot;type&quot;: &quot;topojson&quot;,
+				&quot;url&quot;: &quot;demo/transformative_strategies-en-5.json&quot;,
+				&quot;datatable&quot;: true,
+				&quot;popups&quot;: true,
+				&quot;attributes&quot;: {
+					&quot;TITLE&quot;: &quot;Title&quot;,
+					&quot;LOCATION&quot;: &quot;Location&quot;,
+					&quot;SECTOR&quot;: &quot;Sector&quot;,
+					&quot;FULLPROJECT&quot;: &quot;Full&nbsp;project&quot;
+				},
+				&quot;style&quot;: {
+					&quot;strokeColor&quot;: &quot;#004c4c&quot;,
+				&quot;select&quot;: {
+					&quot;strokeColor&quot;: &quot;#004c4c&quot;,
+					&quot;strokeWidth&quot;: 5.0,
+					&quot;fillColor&quot;: &quot;#008080&quot;,
+					&quot;fillOpacity&quot;: 0.2
+				}
+			}
+			}
+		]
+	}"
+		>
+			<div class="row">
+				<div class="col-md-9">
+					<div class="wb-geomap-map mrgn-bttm-lg"></div>
+				</div>
+				<div class="col-md-3">
+					<div class="panel panel-default">
+						<header class="panel-heading">
+							<h3 class="panel-title">Legend</h3>
+						</header>
+						<div class="panel-body">
+							<p class="small">Select the box(es) to see where
+								projects and/or transformative strategies are
+								located on the map.</p>
+							<div class="wb-geomap-legend"></div>
+							<p class="small">Further information on the projects
+								and strategies can be found in the tables below.</p>
+							<p class="small">Disclaimer: All locations are
+								approximate and subject to final routing
+								decisions</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wb-geomap-layers"></div>
+		</div>
+		<div class="mwsmediaplayer section">
+			<style>
+				/* Makes checkboxes bigger */
+				#privy_map input[type="checkbox"] {
+					height: 24px;
+					width: 24px;
+				}
+
+				#privy_map .wb-geomap-legend input[type="checkbox"] {
+					margin-left: -32px;
+				}
+
+				#privy_map .wb-geomap-legend label {
+					padding-left: 32px;
+				}
+
+				/* #privy_map .wb-geomap-legend .geomap-lgnd-layer label + div { display: block !important; }  */
+			</style>
+			<script>
+				// Makes tables responsive
+				document.addEventListener("wet-boew-ready", function (e) { const
+				geomapID = document.getElementById('privy_map'); let disconnect
+				= false; const observer = new MutationObserver((mutationsList,
+				observer) => { for (const mutation of mutationsList) { if
+				(mutation.type === 'childList' && mutation.addedNodes.length >
+				0) { for (const node of mutation.addedNodes) { if (node.nodeType
+				=== Node.ELEMENT_NODE && node.matches('.dataTables_wrapper')) {
+				node.classList.add('table-responsive'); if (disconnect) {
+				observer.disconnect(); } disconnect = true; return; } } } } });
+				observer.observe(geomapID, { childList: true, subtree: true });
+				});
+			</script>
+		</div>
+
+		<!--*********************************************************************************-->
+
+	</section>
+	<div>&nbsp;</div>
+</div>
