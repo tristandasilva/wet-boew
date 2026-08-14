@@ -1,0 +1,702 @@
+Année modèle,Marque,Modèle,Catégorie de véhicule,Cylindrée (L),Cylindres,Transmission,Type de carburant,Ville (L/100 km),Route (L/100 km),Combinée (L/100 km),Combinée (mi/gal),Émissions de CO2 (g/km),Indice de CO2,Indice de smog
+2025,Acura,ADX AWD,Familiale : petite,1.5,4,AV7,Z,9.1,7.7,8.5,33,199,6,5
+2025,Acura,Integra A-SPEC,Grande berline,1.5,4,AV7,Z,8.1,6.5,7.4,38,172,6,6
+2025,Acura,Integra A-SPEC,Grande berline,1.5,4,M6,Z,8.9,6.5,7.8,36,181,6,5
+2025,Acura,Integra Type S,Grande berline,2.0,4,M6,Z,11.1,8.3,9.9,29,230,5,5
+2025,Acura,MDX SH-AWD,Véhicule utilitaire sport : petit,3.5,6,AS10,Z,12.6,9.4,11.2,25,263,4,4
+2025,Acura,MDX SH-AWD Type S,Véhicule utilitaire sport : ordinaire,3.0,6,AS10,Z,13.8,11.2,12.4,23,291,4,4
+2025,Acura,RDX SH-AWD,Véhicule utilitaire sport : petit,2.0,4,AS10,Z,11.0,8.6,9.9,29,232,5,5
+2025,Acura,RDX SH-AWD A-SPEC,Véhicule utilitaire sport : petit,2.0,4,AS10,Z,11.3,9.1,10.3,27,241,5,5
+2025,Acura,TLX SH-AWD A-SPEC,Compacte,2.0,4,AS10,Z,11.3,8.1,9.8,29,231,5,6
+2025,Acura,TLX Type S (Performance Tire),Compacte,3.0,6,AS10,Z,12.3,9.8,11.2,25,261,4,4
+2025,Alfa Romeo,Giulia,Intermédiaire,2.0,4,A8,Z,10.0,7.2,8.7,32,205,5,4
+2025,Alfa Romeo,Giulia AWD,Intermédiaire,2.0,4,A8,Z,10.5,7.7,9.2,31,217,5,4
+2025,Alfa Romeo,Stelvio AWD,Véhicule utilitaire sport : petit,2.0,4,A8,Z,10.8,8.3,9.6,29,226,5,4
+2025,Alfa Romeo,Tonale AWD,Véhicule utilitaire sport : petit,2.0,4,A9,X,11.3,8.1,9.9,29,231,5,6
+2025,Aston Martin,DB12,Minicompacte,4.0,8,A8,Z,15.9,10.5,13.5,21,316,3,4
+2025,Aston Martin,DBX707,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,15.7,12.0,14.0,20,329,3,4
+2025,Aston Martin,Vanquish,Deux places,5.2,12,A8,Z,17.6,11.3,14.8,19,347,3,2
+2025,Aston Martin,Vantage,Deux places,4.0,8,A8,Z,15.3,10.5,13.1,22,308,4,4
+2025,Audi,A3 40 TFSI quattro,Sous-compacte,2.0,4,AM7,Z,9.6,7.3,8.5,33,201,5,6
+2025,Audi,A4 45 TFSI quattro,Compacte,2.0,4,AM7,Z,10.1,7.3,8.8,32,207,5,4
+2025,Audi,A4 allroad 45 TFSI quattro,Familiale : petite,2.0,4,AM7,Z,10.3,7.8,9.2,31,215,5,4
+2025,Audi,A5 Coupé 45 TFSI quattro,Sous-compacte,2.0,4,AM7,Z,10.1,7.3,8.8,32,207,5,4
+2025,Audi,A5 Sedan quattro,Intermédiaire,2.0,4,AM7,Z,10.5,7.6,9.2,31,217,5,4
+2025,Audi,A5 Sportback 45 TFSI quattro,Intermédiaire,2.0,4,AM7,Z,10.1,7.3,8.8,32,207,5,4
+2025,Audi,A6 45 TFSI quattro,Intermédiaire,2.0,4,AM7,Z,10.0,7.7,8.9,32,211,5,4
+2025,Audi,A6 55 TFSI quattro,Intermédiaire,3.0,6,AM7,Z,10.9,8.0,9.6,29,226,5,4
+2025,Audi,A6 allroad 55 TFSI quattro,Familiale : intermédiaire,3.0,6,AM7,Z,10.9,8.0,9.6,29,226,5,4
+2025,Audi,A7 Sportback,Intermédiaire,3.0,6,AM7,Z,10.9,8.0,9.6,29,226,5,4
+2025,Audi,A8 quattro,Grande berline,3.0,6,AS8,Z,12.6,8.8,10.9,26,257,4,4
+2025,Audi,Q3 40 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AS8,X,10.7,8.0,9.5,30,224,5,5
+2025,Audi,Q3 45 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AS8,X,11.7,8.3,10.2,28,240,5,6
+2025,Audi,Q5 40 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.1,8.0,9.2,31,215,5,4
+2025,Audi,Q5 45 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.6,8.4,9.6,29,226,5,4
+2025,Audi,Q5 Sportback 45 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.6,8.4,9.6,29,226,5,4
+2025,Audi,All-new Q5 TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,11.2,8.2,9.9,29,232,5,6
+2025,Audi,All-new Q5 Sportback TFSI quattro,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,11.2,8.2,9.9,29,232,5,6
+2025,Audi,Q7 45 TFSI quattro,Véhicule utilitaire sport : ordinaire,2.0,4,AS8,Z,12.0,9.2,10.7,26,252,5,4
+2025,Audi,Q7 55 TFSI quattro,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.0,10.0,11.7,24,275,4,4
+2025,Audi,RS 3,Sous-compacte,2.5,5,AM7,Z,12.0,8.0,10.2,28,239,5,2
+2025,Audi,RS 5 Coupé,Sous-compacte,2.9,6,AS8,Z,12.9,9.3,11.3,25,264,4,4
+2025,Audi,RS 5 Sportback,Intermédiaire,2.9,6,AS8,Z,13.3,9.6,11.6,24,272,4,4
+2025,Audi,RS 6 Avant quattro performance,Familiale : intermédiaire,4.0,8,AS8,Z,17.0,11.0,14.3,20,336,3,2
+2025,Audi,RS 6 Avant GT,Familiale : intermédiaire,4.0,8,AS8,Z,17.0,11.0,14.3,20,336,3,2
+2025,Audi,RS 7 Sportback quattro performance,Intermédiaire,4.0,8,AS8,Z,17.0,11.0,14.3,20,336,3,2
+2025,Audi,RS Q8 performance,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,16.1,11.7,14.1,20,340,3,2
+2025,Audi,S3 quattro,Sous-compacte,2.0,4,AM7,Z,10.4,7.6,9.1,31,215,5,4
+2025,Audi,S4 quattro,Compacte,3.0,6,AS8,Z,11.0,8.1,9.7,29,228,5,4
+2025,Audi,S5 Coupé quattro,Sous-compacte,3.0,6,AS8,Z,11.0,8.1,9.7,29,228,5,4
+2025,Audi,S5 Sedan quattro,Intermédiaire,3.0,6,AM7,Z,12.3,8.3,10.5,27,247,5,4
+2025,Audi,S5 Sportback quattro,Intermédiaire,3.0,6,AS8,Z,11.8,8.2,10.2,28,238,5,4
+2025,Audi,S6 quattro,Intermédiaire,2.9,6,AS8,Z,12.4,8.9,10.8,26,254,5,4
+2025,Audi,S7 quattro,Intermédiaire,2.9,6,AS8,Z,12.4,8.9,10.8,26,254,5,4
+2025,Audi,S8 quattro,Grande berline,4.0,8,AS8,Z,16.0,10.0,13.3,21,312,4,2
+2025,Audi,SQ5 quattro,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,12.6,9.8,11.4,25,266,4,4
+2025,Audi,SQ5 Sportback quattro,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,12.6,9.8,11.4,25,266,4,4
+2025,Audi,All-new SQ5 quattro,Véhicule utilitaire sport : petit,3.0,6,AM7,Z,12.2,8.9,10.7,26,251,5,4
+2025,Audi,All-new SQ5 Sportback quattro,Véhicule utilitaire sport : petit,3.0,6,AM7,Z,12.2,8.9,10.7,26,251,5,4
+2025,Audi,SQ7 quattro,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,16.0,11.2,13.8,20,325,3,2
+2025,Audi,SQ8 quattro,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,16.1,11.9,14.2,20,335,3,2
+2025,Bentley,Bentayga,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,17.1,11.4,14.6,19,343,3,2
+2025,Bentley,Bentayga EWB,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,17.1,11.4,14.6,19,343,3,2
+2025,BMW,228 xDrive Gran Coupe,Compacte,2.0,4,AM7,Z,9.0,6.3,7.7,37,179,6,7
+2025,BMW,230i xDrive Coupe,Sous-compacte,2.0,4,AS8,Z,9.5,7.1,8.4,34,194,6,2
+2025,BMW,330i xDrive Sedan,Compacte,2.0,4,AS8,Z,8.9,6.9,8.0,35,185,6,7
+2025,BMW,430i xDrive Cabriolet,Sous-compacte,2.0,4,AS8,Z,9.6,7.1,8.5,33,196,6,7
+2025,BMW,430i xDrive Coupe,Sous-compacte,2.0,4,AS8,Z,8.7,6.9,7.9,36,183,6,7
+2025,BMW,430i xDrive Gran Coupe,Compacte,2.0,4,AS8,Z,9.3,6.9,8.2,34,190,6,7
+2025,BMW,530i xDrive Sedan,Intermédiaire,2.0,4,AS8,Z,8.7,6.8,7.9,36,182,6,6
+2025,BMW,760i xDrive Sedan,Grande berline,4.4,8,AS8,Z,13.3,9.3,11.5,25,265,4,4
+2025,BMW,ALPINA XB7,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.2,11.6,13.6,21,314,4,4
+2025,BMW,M2 Coupe,Sous-compacte,3.0,6,AS8,Z,14.4,10.3,12.5,23,290,4,4
+2025,BMW,M2 Coupe,Sous-compacte,3.0,6,M6,Z,14.7,10.0,12.6,22,294,4,4
+2025,BMW,M240i xDrive Coupe,Sous-compacte,3.0,6,AS8,Z,10.3,7.3,9.0,31,209,5,4
+2025,BMW,M3 Sedan,Compacte,3.0,6,M6,Z,14.7,10.1,12.6,22,293,4,4
+2025,BMW,M3 Competition Sedan,Compacte,3.0,6,AS8,Z,14.5,10.2,12.6,22,292,4,4
+2025,BMW,M3 Competition M xDrive Sedan,Compacte,3.0,6,AS8,Z,14.9,10.3,12.8,22,296,4,4
+2025,BMW,M340i xDrive Sedan,Compacte,3.0,6,AS8,Z,9.0,7.1,8.2,34,189,6,6
+2025,BMW,M4 Coupe,Sous-compacte,3.0,6,M6,Z,14.7,10.1,12.6,22,293,4,4
+2025,BMW,M4 Competition Coupe,Sous-compacte,3.0,6,AS8,Z,14.5,10.2,12.6,22,292,4,4
+2025,BMW,M4 Competition M xDrive Cabriolet,Sous-compacte,3.0,6,AS8,Z,14.9,10.5,12.9,22,297,4,4
+2025,BMW,M4 Competition M xDrive Coupe,Sous-compacte,3.0,6,AS8,Z,14.7,10.2,12.7,22,293,4,4
+2025,BMW,M4 CS Coupe,Sous-compacte,3.0,6,AS8,Z,15.0,10.3,12.9,22,297,4,4
+2025,BMW,M440i xDrive Cabriolet,Sous-compacte,3.0,6,AS8,Z,9.2,7.3,8.4,34,194,6,6
+2025,BMW,M440i xDrive Coupe,Sous-compacte,3.0,6,AS8,Z,8.9,7.1,8.1,35,187,6,6
+2025,BMW,M440i xDrive Gran Coupe,Compacte,3.0,6,AS8,Z,9.4,7.6,8.6,33,199,6,6
+2025,BMW,M8 Competition Cabriolet,Sous-compacte,4.4,8,AS8,Z,16.1,10.9,13.8,20,321,3,2
+2025,BMW,M8 Competition Coupe,Sous-compacte,4.4,8,AS8,Z,16.1,10.9,13.8,20,321,3,2
+2025,BMW,M8 Competition Gran Coupe,Intermédiaire,4.4,8,AS8,Z,16.1,10.9,13.8,20,321,3,2
+2025,BMW,M850i xDrive Cabriolet,Sous-compacte,4.4,8,AS8,Z,14.2,9.9,12.2,23,285,4,2
+2025,BMW,M850i xDrive Coupe,Sous-compacte,4.4,8,AS8,Z,14.1,9.9,12.2,23,284,4,2
+2025,BMW,M850i xDrive Gran Coupe,Intermédiaire,4.4,8,AS8,Z,14.2,9.9,12.2,23,285,4,2
+2025,BMW,X1 xDrive28i,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,9.7,7.1,8.5,33,198,6,7
+2025,BMW,X1 M35i,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.1,7.6,9.0,31,208,5,5
+2025,BMW,X2 xDrive28i,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,9.7,7.1,8.5,33,198,6,7
+2025,BMW,X2 M35i,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.3,7.3,8.9,32,206,5,5
+2025,BMW,X3 xDrive30i,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,8.8,7.1,8.1,35,186,6,7
+2025,BMW,X3 M50i xDrive,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,9.3,7.7,8.6,33,199,6,6
+2025,BMW,X4 xDrive30i,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,11.1,8.6,9.9,29,231,5,6
+2025,BMW,X4 M,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,15.7,11.7,13.9,20,323,3,2
+2025,BMW,X4 M Competition,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,15.7,11.7,13.9,20,323,3,2
+2025,BMW,X4 M40i xDrive,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,10.9,9.0,10.0,28,234,5,4
+2025,BMW,X5 xDrive40i,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,10.1,8.7,9.4,30,218,5,6
+2025,BMW,X5 M Competition,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,18.2,12.9,15.8,18,366,2,4
+2025,BMW,X5 M60i xDrive,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,13.8,10.5,12.3,23,285,4,4
+2025,BMW,X6 xDrive40i,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,10.3,8.9,9.6,29,223,5,6
+2025,BMW,X6 M Competition,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,18.2,12.9,15.8,18,366,2,4
+2025,BMW,X6 M60i xDrive,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,13.8,10.5,12.3,23,285,4,4
+2025,BMW,X7 xDrive40i,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,11.6,9.6,10.7,26,247,5,6
+2025,BMW,X7 M60i xDrive,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,14.7,11.6,13.3,21,310,4,4
+2025,BMW,Z4 sDrive30i,Deux places,2.0,4,AS8,Z,9.4,7.1,8.4,34,194,6,6
+2025,BMW,Z4 M40i,Deux places,3.0,6,AS8,Z,10.4,8.0,9.3,30,215,5,4
+2025,BMW,Z4 M40i,Deux places,3.0,6,M6,Z,12.6,8.9,10.9,26,253,5,4
+2025,Bugatti,Mistral,Deux places,8.0,16,AM7,Z,29.7,19.2,25.0,11,586,1,1
+2025,Buick,Enclave AWD,Véhicule utilitaire sport : ordinaire,2.5,4,A8,X,12.3,9.9,11.2,25,262,4,5
+2025,Buick,Encore GX,Véhicule utilitaire sport : petit,1.3,3,AV,X,8.0,7.6,7.8,36,183,6,6
+2025,Buick,Encore GX AWD,Véhicule utilitaire sport : petit,1.3,3,A9,X,9.1,8.4,8.8,32,207,5,6
+2025,Buick,Envision AWD,Véhicule utilitaire sport : petit,2.0,4,AS9,X,10.8,8.3,9.7,29,229,5,6
+2025,Buick,Envista,Familiale : petite,1.2,3,A6,X,8.4,7.4,7.9,36,185,6,6
+2025,Cadillac,CT4,Compacte,2.0,4,AS8,Z,10.6,7.3,9.1,31,214,5,6
+2025,Cadillac,CT4,Compacte,2.7,4,AS10,Z,11.0,7.6,9.5,30,221,5,5
+2025,Cadillac,CT4 AWD,Compacte,2.0,4,AS8,Z,11.0,7.6,9.5,30,223,5,6
+2025,Cadillac,CT4 AWD,Compacte,2.7,4,AS10,Z,11.3,8.1,9.9,29,231,5,5
+2025,Cadillac,CT4-V,Compacte,2.7,4,AS10,Z,11.8,8.2,10.2,28,236,5,5
+2025,Cadillac,CT4-V,Compacte,3.6,6,AS10,Z,15.0,9.7,12.6,22,297,4,4
+2025,Cadillac,CT4-V,Compacte,3.6,6,M6,Z,15.2,10.2,12.9,22,303,4,4
+2025,Cadillac,CT4-V AWD,Compacte,2.7,4,AS10,Z,12.0,8.4,10.4,27,244,5,5
+2025,Cadillac,CT5,Intermédiaire,2.0,4,AS10,Z,10.4,7.3,9.0,31,212,5,6
+2025,Cadillac,CT5,Intermédiaire,3.0,6,AS10,Z,12.3,8.4,10.6,27,249,5,4
+2025,Cadillac,CT5 AWD,Intermédiaire,2.0,4,AS10,Z,11.0,7.8,9.6,29,224,5,6
+2025,Cadillac,CT5 AWD,Intermédiaire,3.0,6,AS10,Z,13.1,9.0,11.2,25,264,4,4
+2025,Cadillac,CT5-V,Intermédiaire,3.0,6,AS10,Z,13.1,8.7,11.1,25,261,4,4
+2025,Cadillac,CT5-V,Intermédiaire,6.2,8,AS10,Z,18.5,11.5,15.3,18,360,2,2
+2025,Cadillac,CT5-V,Intermédiaire,6.2,8,M6,Z,18.7,11.6,15.5,18,365,2,2
+2025,Cadillac,CT5-V AWD,Intermédiaire,3.0,6,AS10,Z,13.8,9.0,11.7,24,275,4,4
+2025,Cadillac,Escalade 4WD,Véhicule utilitaire sport : ordinaire,6.2,8,A10,Z,16.6,13.0,15.0,19,352,3,5
+2025,Cadillac,Escalade-V AWD,Véhicule utilitaire sport : ordinaire,6.2,8,AS10,Z,20.8,13.8,17.7,16,415,1,2
+2025,Cadillac,XT4 AWD,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,10.4,8.3,9.5,30,222,5,6
+2025,Cadillac,XT5,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,10.9,8.2,9.7,29,228,5,6
+2025,Cadillac,XT5 AWD,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,11.2,8.7,10.1,28,237,5,6
+2025,Cadillac,XT5 AWD,Véhicule utilitaire sport : petit,3.6,6,AS9,X,12.9,9.2,11.2,25,264,4,5
+2025,Cadillac,XT6 AWD,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,11.2,9.0,10.2,28,239,5,6
+2025,Cadillac,XT6 AWD,Véhicule utilitaire sport : petit,3.6,6,AS9,X,13.1,9.5,11.5,25,270,4,5
+2025,Chevrolet,Blazer AWD,Véhicule utilitaire sport : petit,2.0,4,A9,X,10.8,8.7,9.9,29,229,5,6
+2025,Chevrolet,Blazer AWD,Véhicule utilitaire sport : petit,3.6,6,A9,X,12.8,9.1,11.2,25,262,4,5
+2025,Chevrolet,Colorado,Camionnette : ordinaire,2.7,4,A8,X,12.4,10.3,11.5,25,291,4,6
+2025,Chevrolet,Colorado 4WD,Camionnette : ordinaire,2.7,4,A8,X,13.6,11.0,12.4,23,303,4,6
+2025,Chevrolet,Colorado 4WD Mud Terrain Tire,Camionnette : ordinaire,2.7,4,A8,X,14.0,11.9,13.1,22,307,4,6
+2025,Chevrolet,Colorado ZR2 4WD,Camionnette : ordinaire,2.7,4,A8,X,14.1,13.8,14.0,20,328,3,6
+2025,Chevrolet,Colorado ZR2 Bison 4WD,Camionnette : ordinaire,2.7,4,A8,X,14.8,15.1,14.9,19,350,3,6
+2025,Chevrolet,Corvette,Deux places,6.2,8,AS8,Z,15.0,9.4,12.5,23,294,4,4
+2025,Chevrolet,Corvette E-Ray,Deux places,6.2,8,AS8,Z,15.2,9.7,12.7,22,298,4,2
+2025,Chevrolet,Corvette Z06,Deux places,5.5,8,AS8,Z,20.0,11.7,16.3,17,382,2,2
+2025,Chevrolet,Corvette Z06 Carbon Aero,Deux places,5.5,8,AS8,Z,20.0,12.6,16.7,17,392,2,2
+2025,Chevrolet,Corvette ZR1,Deux places,5.5,8,AS8,Z,20.0,13.0,16.9,17,396,2,2
+2025,Chevrolet,Equinox,Véhicule utilitaire sport : petit,1.5,4,AV,X,9.2,8.3,8.8,32,206,5,6
+2025,Chevrolet,Equinox AWD,Véhicule utilitaire sport : petit,1.5,4,A8,X,10.0,8.2,9.2,31,216,5,6
+2025,Chevrolet,Malibu,Intermédiaire,1.5,4,AV,X,8.5,6.8,7.7,37,180,6,6
+2025,Chevrolet,Silverado,Camionnette : ordinaire,2.7,4,A8,X,13.4,11.2,12.5,23,292,4,6
+2025,Chevrolet,Silverado,Camionnette : ordinaire,3.0,6,A10,D,10.0,8.3,9.3,30,249,5,4
+2025,Chevrolet,Silverado,Camionnette : ordinaire,5.3,8,A10,X,14.8,11.2,13.2,21,309,4,6
+2025,Chevrolet,Silverado 4WD,Camionnette : ordinaire,2.7,4,A8,X,13.7,12.0,12.9,22,303,4,6
+2025,Chevrolet,Silverado 4WD Mud Terrain Tire,Camionnette : ordinaire,2.7,4,A8,X,14.7,13.8,14.3,20,335,3,6
+2025,Chevrolet,Silverado 4WD,Camionnette : ordinaire,3.0,6,A10,D,10.7,9.3,10.1,28,270,4,4
+2025,Chevrolet,Silverado 4WD (With Sport Mode),Camionnette : ordinaire,3.0,6,A10,D,10.6,9.0,9.9,29,266,4,4
+2025,Chevrolet,Silverado 4WD Mud Terrain Tire,Camionnette : ordinaire,3.0,6,A10,D,11.1,10.0,10.6,27,285,4,4
+2025,Chevrolet,Silverado 4WD,Camionnette : ordinaire,5.3,8,A10,X,15.2,12.4,13.9,20,326,3,6
+2025,Chevrolet,Silverado 4WD FFV,Camionnette : ordinaire,5.3,8,A10,X,15.2,12.2,13.9,20,326,3,4
+2025,Chevrolet,Silverado 4WD FFV,Camionnette : ordinaire,5.3,8,A10,E,21.3,16.6,19.2,15,318,3,4
+2025,Chevrolet,Silverado 4WD Mud Terrain Tire,Camionnette : ordinaire,5.3,8,A10,X,15.6,13.1,14.5,19,339,3,6
+2025,Chevrolet,Silverado 4WD,Camionnette : ordinaire,6.2,8,A10,Z,15.8,12.0,14.1,20,331,3,5
+2025,Chevrolet,Silverado 4WD Mud Terrain Tire,Camionnette : ordinaire,6.2,8,A10,Z,17.1,14.0,15.7,18,368,2,5
+2025,Chevrolet,Silverado 4WD ZR2,Camionnette : ordinaire,3.0,6,A10,D,11.7,10.3,11.1,25,298,4,4
+2025,Chevrolet,Silverado 4WD ZR2,Camionnette : ordinaire,6.2,8,A10,Z,17.1,14.1,15.7,18,370,2,5
+2025,Chevrolet,Suburban,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.7,12.0,14.0,20,329,3,6
+2025,Chevrolet,Suburban 4WD,Véhicule utilitaire sport : ordinaire,3.0,6,A10,D,11.5,9.7,10.7,26,287,4,4
+2025,Chevrolet,Suburban 4WD,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,17.1,12.6,15.1,19,353,3,6
+2025,Chevrolet,Suburban 4WD,Véhicule utilitaire sport : ordinaire,6.2,8,A10,Z,16.6,13.0,15.0,19,352,3,5
+2025,Chevrolet,Tahoe,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.7,12.0,14.0,20,329,3,6
+2025,Chevrolet,Tahoe 4WD,Véhicule utilitaire sport : ordinaire,3.0,6,A10,D,11.5,9.7,10.7,26,287,4,4
+2025,Chevrolet,Tahoe 4WD,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.9,12.5,14.4,20,337,3,6
+2025,Chevrolet,Tahoe 4WD,Véhicule utilitaire sport : ordinaire,6.2,8,A10,Z,16.6,13.0,15.0,19,352,3,5
+2025,Chevrolet,Trailblazer,Véhicule utilitaire sport : petit,1.2,3,AV,X,7.8,7.7,7.8,36,183,6,6
+2025,Chevrolet,Trailblazer,Véhicule utilitaire sport : petit,1.2,3,AV,E,10.7,10.2,10.5,27,175,6,6
+2025,Chevrolet,Trailblazer,Véhicule utilitaire sport : petit,1.3,3,AV,X,8.1,7.2,7.7,37,181,6,6
+2025,Chevrolet,Trailblazer AWD,Véhicule utilitaire sport : petit,1.3,3,A9,X,9.1,8.1,8.7,32,204,5,6
+2025,Chevrolet,Traverse AWD,Véhicule utilitaire sport : ordinaire,2.5,4,A8,X,12.3,9.9,11.2,25,262,4,5
+2025,Chevrolet,Trax,Familiale : petite,1.2,3,A6,X,8.5,7.6,8.1,35,190,6,6
+2025,Chrysler,Grand Caravan,Fourgonnette,3.6,6,A9,X,12.4,8.4,10.6,27,249,5,6
+2025,Chrysler,Pacifica,Fourgonnette,3.6,6,A9,X,12.4,8.4,10.6,27,249,5,6
+2025,Chrysler,Pacifica AWD,Fourgonnette,3.6,6,A9,X,14.1,9.4,12.0,24,279,4,6
+2025,Dodge,Durango AWD,Véhicule utilitaire sport : ordinaire,3.6,6,A8,X,13.5,10.0,11.9,24,280,4,6
+2025,Dodge,Durango AWD,Véhicule utilitaire sport : ordinaire,5.7,8,A8,X,16.7,10.9,14.1,20,331,3,4
+2025,Dodge,Durango AWD SRT Hellcat,Véhicule utilitaire sport : ordinaire,6.2,8,A8,Z,20.5,13.8,17.4,16,410,1,1
+2025,Dodge,Hornet AWD,Véhicule utilitaire sport : petit,2.0,4,A9,X,11.3,8.1,9.9,29,231,5,6
+2025,Ferrari,12Cilindri,Deux places,6.5,12,AM8,Z,19.6,12.7,16.5,17,385,2,5
+2025,Ferrari,12Cilindri Spider,Deux places,6.5,12,AM8,Z,19.6,13.5,16.8,17,393,2,5
+2025,Ferrari,Daytona SP3,Deux places,6.5,12,AM7,Z,19.9,14.8,17.6,16,410,1,2
+2025,Ferrari,Purosangue,Véhicule utilitaire sport : ordinaire,6.5,12,AM8,Z,22.0,15.3,19.0,15,442,1,5
+2025,Ferrari,Roma Spider,Minicompacte,3.9,8,AM8,Z,13.9,10.5,12.4,23,290,4,5
+2025,Ford,Bronco 4WD,Véhicule utilitaire sport : petit,2.3,4,AS10,X,12.9,10.9,12.0,24,289,4,6
+2025,Ford,Bronco 4WD,Véhicule utilitaire sport : petit,2.3,4,M7,X,12.9,11.0,12.1,23,291,4,6
+2025,Ford,Bronco 4WD,Véhicule utilitaire sport : petit,2.7,6,AS10,X,13.7,13.1,13.4,21,314,4,5
+2025,Ford,Bronco 4WD (With Sport Mode),Véhicule utilitaire sport : petit,2.7,6,AS10,X,13.8,12.7,13.3,21,313,4,5
+2025,Ford,Bronco Badlands 4WD,Véhicule utilitaire sport : petit,2.3,4,AS10,X,14.0,12.5,13.3,21,321,3,6
+2025,Ford,Bronco Badlands 4WD,Véhicule utilitaire sport : petit,2.3,4,M7,X,13.9,12.9,13.5,21,326,3,6
+2025,Ford,Bronco Outer Banks 4WD,Véhicule utilitaire sport : ordinaire,2.7,6,AS10,X,12.5,11.4,12.0,24,282,4,5
+2025,Ford,Bronco Raptor 4WD,Véhicule utilitaire sport : ordinaire,3.0,6,AS10,X,15.7,14.8,15.3,18,358,2,5
+2025,Ford,Bronco Sasquatch 4WD,Véhicule utilitaire sport : petit,2.3,4,AS10,X,13.8,12.4,13.2,21,310,4,6
+2025,Ford,Bronco Sasquatch 4WD,Véhicule utilitaire sport : petit,2.3,4,M7,X,13.8,12.4,13.2,21,310,4,6
+2025,Ford,Bronco Sport 4WD,Véhicule utilitaire sport : petit,1.5,3,A8,X,9.3,7.9,8.7,32,203,5,6
+2025,Ford,Bronco Sport 4WD,Véhicule utilitaire sport : petit,2.0,4,AS8,X,11.2,8.7,10.1,28,237,5,6
+2025,Ford,Bronco Sport Sasquatch,Véhicule utilitaire sport : petit,1.5,3,A8,X,10.2,9.0,9.7,29,228,5,6
+2025,Ford,Escape,Véhicule utilitaire sport : petit,1.5,3,A8,X,8.9,6.9,8.0,35,185,6,6
+2025,Ford,Escape AWD,Véhicule utilitaire sport : petit,1.5,3,A8,X,9.2,7.4,8.4,34,196,6,6
+2025,Ford,Escape AWD,Véhicule utilitaire sport : petit,2.0,4,A8,X,10.2,7.6,9.1,31,213,5,6
+2025,Ford,Escape Hybrid,Véhicule utilitaire sport : petit,2.5,4,AV,X,5.6,6.5,6.0,47,140,7,7
+2025,Ford,Escape Hybrid AWD,Véhicule utilitaire sport : petit,2.5,4,AV,X,5.6,6.5,6.0,47,140,7,7
+2025,Ford,Expedition 4WD,Véhicule utilitaire sport : ordinaire,3.5,6,AS10,X,15.4,10.7,13.3,21,312,4,6
+2025,Ford,Explorer AWD,Véhicule utilitaire sport : ordinaire,2.3,4,A10,X,11.9,8.7,10.4,27,245,5,6
+2025,Ford,Explorer AWD,Véhicule utilitaire sport : ordinaire,3.0,6,A10,X,13.0,9.3,11.3,25,266,4,5
+2025,Ford,Explorer AWD,Véhicule utilitaire sport : ordinaire,3.0,6,AS10,X,13.3,9.6,11.6,24,273,4,5
+2025,Ford,F-150,Camionnette : ordinaire,2.7,6,AS10,X,12.8,9.5,11.3,25,265,4,6
+2025,Ford,F-150,Camionnette : ordinaire,3.5,6,AS10,X,14.2,9.7,12.2,23,286,4,6
+2025,Ford,F-150,Camionnette : ordinaire,5.0,8,AS10,X,14.5,10.2,12.6,22,295,4,5
+2025,Ford,F-150 4X4,Camionnette : ordinaire,2.7,6,AS10,X,13.1,10.2,11.8,24,277,4,6
+2025,Ford,F-150 4X4,Camionnette : ordinaire,3.5,6,AS10,X,14.5,9.8,12.4,23,291,4,6
+2025,Ford,F-150 4X4,Camionnette : ordinaire,5.0,8,AS10,X,14.8,10.3,12.8,22,300,4,5
+2025,Ford,F-150 Hybrid 4X4,Camionnette : ordinaire,3.5,6,AS10,X,11.2,10.0,10.7,26,250,5,6
+2025,Ford,F-150 Tremor 4X4,Camionnette : ordinaire,3.5,6,AS10,X,14.3,11.2,12.9,22,303,4,6
+2025,Ford,F-150 Tremor 4X4,Camionnette : ordinaire,5.0,8,AS10,X,15.2,11.9,13.7,21,322,3,5
+2025,Ford,F-150 Raptor 4X4,Camionnette : ordinaire,3.5,6,AS10,X,16.6,13.1,15.0,19,353,3,6
+2025,Ford,F-150 Raptor R 4X4,Camionnette : ordinaire,5.2,8,AS10,Z,22.8,15.9,19.7,14,460,1,4
+2025,Ford,Maverick AWD,Camionnette : petite,2.0,4,A8,X,10.6,7.8,9.4,30,219,5,6
+2025,Ford,Maverick Lobo,Camionnette : petite,2.0,4,AS8,X,11.2,7.8,9.7,29,227,5,6
+2025,Ford,Maverick Tremor AWD,Camionnette : petite,2.0,4,AS8,X,11.2,8.7,10.1,28,237,5,6
+2025,Ford,Maverick Hybrid,Camionnette : petite,2.5,4,AV,X,5.6,6.7,6.2,46,145,7,7
+2025,Ford,Maverick Hybrid AWD,Camionnette : petite,2.5,4,AV,X,5.8,6.9,6.3,45,148,7,7
+2025,Ford,Mustang,Sous-compacte,2.3,4,A10,X,10.8,7.1,9.2,31,215,5,6
+2025,Ford,Mustang,Sous-compacte,5.0,8,AS10,X,15.7,10.4,13.3,21,313,4,4
+2025,Ford,Mustang,Sous-compacte,5.0,8,M6,X,16.1,10.8,13.7,21,322,3,4
+2025,Ford,Mustang Dark Horse,Sous-compacte,5.0,8,AS10,X,16.5,11.0,14.0,20,327,3,4
+2025,Ford,Mustang Dark Horse,Sous-compacte,5.0,8,M6,X,17.2,11.0,14.4,20,337,3,4
+2025,Ford,Mustang GTD,Sous-compacte,5.2,8,AM8,Z,23.5,13.9,19.2,15,451,1,4
+2025,Ford,Ranger 4WD,Camionnette : ordinaire,2.3,4,AS10,X,12.2,9.0,10.7,26,252,5,6
+2025,Ford,Ranger 4WD,Camionnette : ordinaire,2.7,6,AS10,X,12.7,10.1,11.5,25,270,4,5
+2025,Ford,Ranger Raptor 4WD,Camionnette : ordinaire,3.0,6,AS10,X,14.9,12.8,14.0,20,326,3,5
+2025,Genesis,G70 AWD,Compacte,2.5,4,AS8,Z,11.7,8.4,10.2,28,239,5,5
+2025,Genesis,G70 AWD,Compacte,3.3,6,AS8,Z,14.3,10.7,12.7,22,298,4,4
+2025,Genesis,G80 AWD,Grande berline,2.5,4,AS8,Z,11.6,8.1,10.0,28,235,5,6
+2025,Genesis,G80 AWD,Grande berline,3.5,6,AS8,Z,15.6,10.2,13.1,22,308,4,5
+2025,Genesis,G90,Grande berline,3.5,6,AS8,Z,13.6,9.6,11.8,24,274,4,4
+2025,Genesis,GV70 AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,Z,11.8,9.0,10.6,27,248,5,4
+2025,Genesis,GV70 AWD,Véhicule utilitaire sport : petit,3.5,6,AS8,Z,12.9,10.0,11.6,24,275,4,4
+2025,Genesis,GV80,Véhicule utilitaire sport : ordinaire,3.5,6,AS8,Z,13.1,10.7,12.0,24,283,4,5
+2025,Genesis,GV80 AWD,Véhicule utilitaire sport : ordinaire,2.5,4,AS8,Z,12.5,9.8,11.3,25,265,4,6
+2025,Genesis,GV80 AWD,Véhicule utilitaire sport : ordinaire,3.5,6,AS8,Z,14.4,10.6,12.7,22,298,4,5
+2025,GMC,Acadia AWD,Véhicule utilitaire sport : ordinaire,2.5,4,A8,X,12.3,9.9,11.2,25,262,4,5
+2025,GMC,Canyon,Camionnette : ordinaire,2.7,4,A8,X,12.4,10.3,11.5,25,291,4,6
+2025,GMC,Canyon 4WD,Camionnette : ordinaire,2.7,4,A8,X,13.6,11.0,12.4,23,303,4,6
+2025,GMC,Canyon AT4X 4WD,Camionnette : ordinaire,2.7,4,A8,X,14.1,13.8,14.0,20,328,3,6
+2025,GMC,Canyon AT4X AEV 4WD,Camionnette : ordinaire,2.7,4,A8,X,14.8,15.1,14.9,19,350,3,6
+2025,GMC,Sierra,Camionnette : ordinaire,2.7,4,A8,X,13.4,11.2,12.5,23,292,4,6
+2025,GMC,Sierra,Camionnette : ordinaire,3.0,6,A10,D,10.0,8.3,9.3,30,249,5,4
+2025,GMC,Sierra,Camionnette : ordinaire,5.3,8,A10,X,14.9,11.7,13.5,21,315,4,6
+2025,GMC,Sierra 4WD,Camionnette : ordinaire,2.7,4,A8,X,14.1,12.7,13.5,21,315,4,6
+2025,GMC,Sierra 4WD (With Sport Mode),Camionnette : ordinaire,2.7,4,A8,X,14.2,12.9,13.6,21,320,3,6
+2025,GMC,Sierra 4WD Mud Terrain Tire,Camionnette : ordinaire,2.7,4,A8,X,14.7,13.8,14.3,20,335,3,6
+2025,GMC,Sierra 4WD,Camionnette : ordinaire,3.0,6,A10,D,10.6,9.0,9.9,29,266,4,4
+2025,GMC,Sierra 4WD Mud Terrain Tire,Camionnette : ordinaire,3.0,6,A10,D,11.1,10.0,10.6,27,285,4,4
+2025,GMC,Sierra 4WD,Camionnette : ordinaire,5.3,8,A10,X,15.4,12.6,14.2,20,332,3,6
+2025,GMC,Sierra 4WD FFV,Camionnette : ordinaire,5.3,8,A10,X,15.2,12.2,13.9,20,326,3,4
+2025,GMC,Sierra 4WD FFV,Camionnette : ordinaire,5.3,8,A10,E,21.3,16.6,19.2,15,318,3,4
+2025,GMC,Sierra 4WD Mud Terrain Tire,Camionnette : ordinaire,5.3,8,A10,X,15.7,13.2,14.6,19,342,3,6
+2025,GMC,Sierra 4WD,Camionnette : ordinaire,6.2,8,A10,Z,16.0,12.1,14.3,20,335,3,5
+2025,GMC,Sierra 4WD Mud Terrain Tire,Camionnette : ordinaire,6.2,8,A10,Z,17.1,14.0,15.7,18,368,2,5
+2025,GMC,Sierra 4WD AT4X,Camionnette : ordinaire,3.0,6,A10,D,12.2,12.0,12.1,23,326,3,4
+2025,GMC,Sierra 4WD AT4X,Camionnette : ordinaire,6.2,8,A10,Z,17.1,14.7,16.0,18,377,2,5
+2025,GMC,Terrain,Véhicule utilitaire sport : petit,1.5,4,AV,X,9.2,8.3,8.8,32,206,5,6
+2025,GMC,Terrain AWD,Véhicule utilitaire sport : petit,1.5,4,A8,X,10.0,8.4,9.3,30,219,5,6
+2025,GMC,Yukon,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.7,12.0,14.0,20,329,3,6
+2025,GMC,Yukon 4WD,Véhicule utilitaire sport : ordinaire,3.0,6,A10,D,11.5,9.7,10.7,26,287,4,4
+2025,GMC,Yukon 4WD,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.9,12.5,14.4,20,337,3,6
+2025,GMC,Yukon 4WD,Véhicule utilitaire sport : ordinaire,6.2,8,A10,Z,16.6,13.0,15.0,19,352,3,5
+2025,GMC,Yukon XL,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,15.7,12.0,14.0,20,329,3,6
+2025,GMC,Yukon XL 4WD,Véhicule utilitaire sport : ordinaire,3.0,6,A10,D,11.5,9.7,10.7,26,287,4,4
+2025,GMC,Yukon XL 4WD,Véhicule utilitaire sport : ordinaire,5.3,8,A10,X,17.1,12.6,15.1,19,353,3,6
+2025,GMC,Yukon XL 4WD,Véhicule utilitaire sport : ordinaire,6.2,8,A10,Z,16.6,13.0,15.0,19,352,3,5
+2025,Honda,Accord,Grande berline,1.5,4,AV,X,8.1,6.4,7.3,39,171,6,6
+2025,Honda,Accord Hybrid Sport/Touring,Intermédiaire,2.0,4,AV,X,5.0,5.7,5.3,53,124,8,6
+2025,Honda,Civic Hatchback,Grande berline,2.0,4,AV,X,7.7,6.1,7.0,40,164,7,6
+2025,Honda,Civic Hatchback Hybrid,Grande berline,2.0,4,AV,X,4.8,5.4,5.0,56,119,8,6
+2025,Honda,Civic Sedan,Intermédiaire,2.0,4,AV,X,7.4,5.8,6.7,42,156,7,6
+2025,Honda,Civic Sedan,Intermédiaire,2.0,4,AV7,X,7.6,6.0,6.9,41,161,7,6
+2025,Honda,Civic Sedan Hybrid,Intermédiaire,2.0,4,AV,X,4.7,5.1,4.9,58,114,8,6
+2025,Honda,Civic Sedan Si,Intermédiaire,1.5,4,M6,Z,8.7,6.4,7.7,37,180,6,5
+2025,Honda,Civic Type R,Grande berline,2.0,4,M6,Z,10.8,8.3,9.7,29,224,5,5
+2025,Honda,CR-V,Véhicule utilitaire sport : petit,1.5,4,AV,X,8.4,7.1,7.8,36,181,6,6
+2025,Honda,CR-V AWD,Véhicule utilitaire sport : petit,1.5,4,AV,X,9.1,7.6,8.4,34,197,6,5
+2025,Honda,CR-V Hybrid AWD,Véhicule utilitaire sport : petit,2.0,4,AV,X,6.0,6.9,6.4,44,151,7,6
+2025,Honda,HR-V,Familiale : petite,2.0,4,AV,X,9.1,7.4,8.3,34,194,6,6
+2025,Honda,HR-V AWD,Familiale : petite,2.0,4,AV,X,9.4,7.8,8.7,32,203,5,6
+2025,Honda,Odyssey,Fourgonnette,3.5,6,AS10,X,12.2,8.5,10.6,27,248,5,4
+2025,Honda,Passport AWD,Véhicule utilitaire sport : petit,3.5,6,AS9,X,12.5,9.8,11.3,25,265,4,4
+2025,Honda,Pilot AWD,Véhicule utilitaire sport : ordinaire,3.5,6,AS10,X,12.4,9.3,11.0,26,258,4,6
+2025,Honda,Pilot AWD Touring/Elite/Black,Véhicule utilitaire sport : ordinaire,3.5,6,AS10,X,12.7,9.4,11.2,25,262,4,6
+2025,Honda,Pilot AWD TrailSport,Véhicule utilitaire sport : ordinaire,3.5,6,AS10,X,13.2,10.1,11.8,24,276,4,6
+2025,Honda,Ridgeline AWD,Camionnette : ordinaire,3.5,6,AS9,X,12.8,9.9,11.5,25,271,4,4
+2025,Honda,Ridgeline AWD TrailSport,Camionnette : ordinaire,3.5,6,AS9,X,12.8,10.2,11.6,24,273,4,4
+2025,Hyundai,Elantra,Intermédiaire,1.6,4,AM7,X,8.3,6.8,7.6,37,179,6,4
+2025,Hyundai,Elantra,Intermédiaire,2.0,4,AV1,X,7.7,5.9,6.9,41,160,7,6
+2025,Hyundai,Elantra (Stop/Start),Intermédiaire,2.0,4,AV1,X,7.3,5.7,6.5,43,153,7,6
+2025,Hyundai,Elantra Hybrid,Intermédiaire,1.6,4,AM6,X,4.8,4.5,4.7,60,110,8,6
+2025,Hyundai,Elantra N,Intermédiaire,2.0,4,AM8,Z,11.8,8.6,10.4,27,244,5,2
+2025,Hyundai,Elantra N,Intermédiaire,2.0,4,M6,Z,11.0,8.1,9.7,29,227,5,2
+2025,Hyundai,Kona,Véhicule utilitaire sport : petit,2.0,4,AV1,X,8.4,6.7,7.6,37,179,6,6
+2025,Hyundai,Kona (Stop/Start),Véhicule utilitaire sport : petit,2.0,4,AV1,X,8.1,6.8,7.5,38,177,6,6
+2025,Hyundai,Kona AWD,Véhicule utilitaire sport : petit,1.6,4,AS8,X,9.6,8.2,9.0,31,212,5,6
+2025,Hyundai,Kona AWD,Véhicule utilitaire sport : petit,2.0,4,AV1,X,9.0,8.1,8.6,33,201,6,6
+2025,Hyundai,Kona AWD (Stop/Start),Véhicule utilitaire sport : petit,2.0,4,AV1,X,8.8,8.1,8.5,33,198,6,6
+2025,Hyundai,Palisade AWD,Véhicule utilitaire sport : petit,3.8,6,AS8,X,12.2,9.7,11.1,25,261,4,5
+2025,Hyundai,Santa Cruz AWD,Véhicule utilitaire sport : petit,2.5,4,AM8,X,12.4,8.5,10.7,26,251,5,6
+2025,Hyundai,Santa Cruz AWD XRT,Véhicule utilitaire sport : petit,2.5,4,AM8,X,12.8,8.9,11.1,25,260,4,6
+2025,Hyundai,Santa Fe AWD,Véhicule utilitaire sport : petit,2.5,4,AM8,X,12.1,8.8,10.6,27,249,5,6
+2025,Hyundai,Santa Fe AWD XRT,Véhicule utilitaire sport : petit,2.5,4,AM8,X,12.2,9.1,10.8,26,254,5,6
+2025,Hyundai,Santa Fe Hybrid AWD,Véhicule utilitaire sport : petit,1.6,4,AM6,X,6.8,6.9,6.9,41,161,7,6
+2025,Hyundai,Sonata,Grande berline,2.5,4,AM8,X,10.1,7.3,8.8,32,207,5,4
+2025,Hyundai,Sonata,Grande berline,2.5,4,AS8,X,9.6,6.5,8.2,34,193,6,6
+2025,Hyundai,Sonata AWD,Grande berline,2.5,4,AS8,X,9.9,7.0,8.6,33,203,5,6
+2025,Hyundai,Sonata Hybrid,Grande berline,2.0,4,AM6,X,5.3,4.6,5.0,56,117,8,6
+2025,Hyundai,Tucson AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,X,9.7,7.7,8.8,32,207,5,6
+2025,Hyundai,Tucson Hybrid,Véhicule utilitaire sport : petit,1.6,4,AM6,X,6.7,6.7,6.7,42,157,7,6
+2025,Hyundai,Venue,Véhicule utilitaire sport : petit,1.6,4,AV1,X,7.9,6.9,7.5,38,177,6,4
+2025,INEOS,Grenadier Station Wagon,Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.0,13.7,15.0,19,349,3,5
+2025,INEOS,Grenadier Belstaff Edition,Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,INEOS,Grenadier Detour,Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,INEOS,Grenadier Fieldmaster Edition,Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.0,13.7,15.0,19,349,3,5
+2025,INEOS,Grenadier Trialmaster Edition,Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,INEOS,Grenadier Quartermaster,Camionnette : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,INEOS,Grenadier Quartermaster Fieldmaster,Camionnette : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,INEOS,Grenadier Quartermaster Trialmaster,Camionnette : ordinaire,3.0,6,A8,Z,16.9,14.8,16.0,18,372,2,5
+2025,Infiniti,QX50 AWD,Véhicule utilitaire sport : petit,2.0,4,AV8,Z,10.8,8.3,9.7,29,228,5,5
+2025,Infiniti,QX55 AWD,Véhicule utilitaire sport : petit,2.0,4,AV8,Z,10.4,8.3,9.4,30,222,5,5
+2025,Infiniti,QX60 AWD,Véhicule utilitaire sport : ordinaire,2.0,4,AS9,Z,10.9,8.8,10.0,28,235,5,5
+2025,Infiniti,QX80 4WD,Véhicule utilitaire sport : ordinaire,3.5,6,AS9,Z,15.1,12.2,13.8,20,324,3,5
+2025,Jaguar,F-Pace P250,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,10.8,8.8,9.9,29,234,5,6
+2025,Jaguar,F-Pace P400,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,12.6,9.4,11.1,25,261,4,6
+2025,Jaguar,F-Pace P550 SVR,Véhicule utilitaire sport : petit,5.0,8,AS8,Z,15.7,11.4,13.8,20,322,3,2
+2025,Jeep,Compass 4X4,Véhicule utilitaire sport : petit,2.0,4,A8,X,9.9,7.4,8.8,32,205,5,6
+2025,Jeep,Gladiator 4X4,Camionnette : ordinaire,3.6,6,A8,X,13.7,10.7,12.3,23,290,4,6
+2025,Jeep,Grand Cherokee 4X4,Véhicule utilitaire sport : ordinaire,3.6,6,A8,X,12.3,9.2,10.9,26,256,5,6
+2025,Jeep,Grand Cherokee L 4X4,Véhicule utilitaire sport : ordinaire,3.6,6,A8,X,13.0,9.4,11.3,25,266,4,6
+2025,Jeep,Grand Wagoneer 4X4 (High Output),Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.3,11.8,14.3,20,334,3,6
+2025,Jeep,Grand Wagoneer L 4X4 (High Output),Véhicule utilitaire sport : ordinaire,3.0,6,A8,Z,16.3,11.8,14.3,20,334,3,6
+2025,Jeep,Wagoneer 4X4,Véhicule utilitaire sport : ordinaire,3.0,6,A8,X,14.5,10.1,12.5,23,293,4,6
+2025,Jeep,Wagoneer L 4X4,Véhicule utilitaire sport : ordinaire,3.0,6,A8,X,14.5,10.4,12.7,22,297,4,6
+2025,Jeep,Wrangler JL 4X4,Véhicule utilitaire sport : petit,2.0,4,A8,X,11.6,10.2,11.0,26,258,4,6
+2025,Jeep,Wrangler JL 4X4,Véhicule utilitaire sport : petit,3.6,6,M6,X,13.9,10.2,12.2,23,287,4,6
+2025,Jeep,Wrangler JL Unlimited 4X4,Véhicule utilitaire sport : petit,2.0,4,A8,X,11.9,10.5,11.3,25,265,4,6
+2025,Jeep,Wrangler JL Unlimited 4X4,Véhicule utilitaire sport : petit,3.6,6,A8,X,13.4,10.1,11.9,24,280,4,6
+2025,Jeep,Wrangler JL Unlimited 4X4,Véhicule utilitaire sport : petit,3.6,6,M6,X,14.3,10.5,12.6,22,296,4,6
+2025,Kia,Carnival,Fourgonnette,3.5,6,AS8,X,12.9,8.8,11.1,25,260,4,5
+2025,Kia,Carnival Hybrid,Fourgonnette,1.6,4,AM6,X,6.9,7.6,7.2,39,170,6,6
+2025,Kia,K4,Intermédiaire,1.6,4,AS8,X,9.2,6.6,8.0,35,188,6,6
+2025,Kia,K4,Intermédiaire,2.0,4,AV1,X,8.4,6.0,7.3,39,172,6,6
+2025,Kia,K4 (Without DMS),Intermédiaire,2.0,4,AV1,X,7.9,5.8,7.0,40,164,7,6
+2025,Kia,Niro,Véhicule utilitaire sport : petit,1.6,4,AM6,X,4.5,5.2,4.8,59,112,8,6
+2025,Kia,Niro FE,Véhicule utilitaire sport : petit,1.6,4,AM6,X,4.5,4.4,4.4,64,104,8,6
+2025,Kia,Seltos,Véhicule utilitaire sport : petit,2.0,4,AV8,X,8.3,6.8,7.6,37,179,6,6
+2025,Kia,Seltos AWD,Véhicule utilitaire sport : petit,1.6,4,AS8,X,9.7,8.6,9.2,31,217,5,6
+2025,Kia,Seltos AWD,Véhicule utilitaire sport : petit,2.0,4,AV8,X,8.8,7.5,8.2,34,192,6,6
+2025,Kia,Sorento AWD,Véhicule utilitaire sport : petit,2.5,4,AM8,X,11.5,8.7,10.3,27,241,5,6
+2025,Kia,Sorento AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,X,10.2,8.5,9.4,30,222,5,6
+2025,Kia,Sorento Hybrid AWD,Véhicule utilitaire sport : petit,1.6,4,AS6,X,7.0,6.9,7.0,40,163,7,6
+2025,Kia,Soul,Familiale : petite,2.0,4,AV,X,8.5,7.0,7.9,36,187,6,6
+2025,Kia,Sportage,Véhicule utilitaire sport : petit,2.5,4,AS8,X,9.3,7.1,8.3,34,195,6,6
+2025,Kia,Sportage AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,X,10.1,8.7,9.4,30,222,5,6
+2025,Kia,Sportage Hybrid AWD,Véhicule utilitaire sport : petit,1.6,4,AM6,X,6.1,6.3,6.2,46,145,7,6
+2025,Kia,Telluride AWD,Véhicule utilitaire sport : petit,3.8,6,AS8,X,13.1,10.0,11.7,24,275,4,5
+2025,Land Rover,Defender 90 P300,Véhicule utilitaire sport : ordinaire,2.0,4,AS8,Z,13.1,11.4,12.3,23,289,4,6
+2025,Land Rover,Defender 90 P400,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.1,11.5,12.4,23,291,4,6
+2025,Land Rover,Defender 90 V8,Véhicule utilitaire sport : ordinaire,5.0,8,AS8,Z,16.2,12.4,14.5,19,342,3,2
+2025,Land Rover,Defender 110 P300,Véhicule utilitaire sport : ordinaire,2.0,4,AS8,Z,13.2,11.9,12.6,22,294,4,6
+2025,Land Rover,Defender 110 P400,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.4,11.8,12.7,22,298,4,6
+2025,Land Rover,Defender 110 OCTA,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.8,12.2,14.2,20,332,3,5
+2025,Land Rover,Defender 110 V8 P500/P525,Véhicule utilitaire sport : ordinaire,5.0,8,AS8,Z,16.9,12.8,15.1,19,357,2,2
+2025,Land Rover,Defender 130 P300,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,14.1,11.8,13.1,22,305,4,6
+2025,Land Rover,Defender 130 P400,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.3,11.5,12.5,23,294,4,6
+2025,Land Rover,Defender 130 P400 Outbound,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,14.4,12.2,13.4,21,316,3,6
+2025,Land Rover,Defender 130 V8 P500,Véhicule utilitaire sport : ordinaire,5.0,8,AS8,Z,17.0,12.5,15.0,19,353,3,2
+2025,Land Rover,Discovery P300,Véhicule utilitaire sport : ordinaire,2.0,4,AS8,Z,12.2,9.8,11.1,25,262,4,6
+2025,Land Rover,Discovery P360,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.6,10.3,12.1,23,284,4,6
+2025,Land Rover,Discovery Sport P250,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,12.7,10.0,11.5,25,271,4,6
+2025,Land Rover,Range Rover P400,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,12.4,9.9,11.3,25,266,4,6
+2025,Land Rover,Range Rover P400 LWB,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,12.4,9.9,11.3,25,266,4,6
+2025,Land Rover,Range Rover P530,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,14.5,10.2,12.6,22,296,4,5
+2025,Land Rover,Range Rover P530 LWB,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.2,10.8,13.2,21,311,4,5
+2025,Land Rover,Range Rover SV P615,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.2,10.8,13.2,21,311,4,5
+2025,Land Rover,Range Rover SV P615 LWB,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.2,10.8,13.2,21,311,4,5
+2025,Land Rover,Range Rover Sport P360,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,11.8,9.3,10.6,27,248,5,6
+2025,Land Rover,Range Rover Sport P400,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,12.5,9.4,11.1,25,261,4,6
+2025,Land Rover,Range Rover Sport P530,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,14.5,10.2,12.6,22,296,4,5
+2025,Land Rover,Range Rover Sport SV P635,Véhicule utilitaire sport : ordinaire,4.4,8,AS8,Z,15.0,10.8,13.1,22,309,4,5
+2025,Land Rover,Range Rover Evoque P250,Véhicule utilitaire sport : petit,2.0,4,AS9,Z,11.9,8.8,10.5,27,247,5,6
+2025,Land Rover,Range Rover Velar P250,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,10.9,8.9,10.0,28,237,5,6
+2025,Land Rover,Range Rover Velar P340,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,12.1,9.0,10.7,26,253,5,6
+2025,Land Rover,Range Rover Velar P400,Véhicule utilitaire sport : petit,3.0,6,AS8,Z,12.6,9.4,11.1,25,261,4,6
+2025,Lexus,ES 250 AWD,Intermédiaire,2.5,4,AS8,X,9.6,7.0,8.4,34,198,6,5
+2025,Lexus,ES 300h,Intermédiaire,2.5,4,AV6,X,5.5,5.2,5.3,53,124,8,6
+2025,Lexus,ES 350,Intermédiaire,3.5,6,AS8,X,10.7,7.3,9.2,31,214,5,4
+2025,Lexus,ES 350 F SPORT,Intermédiaire,3.5,6,AS8,X,10.9,7.5,9.4,30,219,5,4
+2025,Lexus,GX 550,Véhicule utilitaire sport : ordinaire,3.4,6,AS10,Z,15.3,11.2,13.5,21,314,4,4
+2025,Lexus,IS 300 AWD,Compacte,3.5,6,AS6,Z,12.2,9.0,10.8,26,253,5,4
+2025,Lexus,IS 350 AWD,Compacte,3.5,6,AS6,Z,12.2,9.0,10.8,26,253,5,4
+2025,Lexus,IS 500,Compacte,5.0,8,AS8,Z,14.1,9.3,11.9,24,280,4,4
+2025,Lexus,LC 500,Sous-compacte,5.0,8,AS10,Z,15.2,9.7,12.7,22,299,4,4
+2025,Lexus,LC 500 Convertible,Minicompacte,5.0,8,AS10,Z,16.0,9.5,13.0,22,304,4,4
+2025,Lexus,LC 500h,Sous-compacte,3.5,6,AV10,Z,9.0,7.1,8.1,35,189,6,6
+2025,Lexus,LS 500 AWD,Intermédiaire,3.4,6,AS10,Z,13.8,8.7,11.2,25,271,4,4
+2025,Lexus,LS 500h AWD,Intermédiaire,3.5,6,AV10,Z,10.1,8.1,9.2,31,217,5,6
+2025,Lexus,LX 600,Véhicule utilitaire sport : ordinaire,3.4,6,AS10,Z,14.2,10.8,12.7,22,298,4,4
+2025,Lexus,LX 700h,Véhicule utilitaire sport : ordinaire,3.4,6,AV10,Z,12.5,10.7,11.7,24,272,4,4
+2025,Lexus,NX 250 AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,X,9.4,7.4,8.4,34,198,6,5
+2025,Lexus,NX 350 AWD,Véhicule utilitaire sport : petit,2.4,4,AS8,Z,10.9,8.5,9.8,29,228,5,6
+2025,Lexus,NX 350 AWD F SPORT,Véhicule utilitaire sport : petit,2.4,4,AS8,Z,11.2,8.3,9.7,29,230,5,6
+2025,Lexus,NX 350h AWD,Véhicule utilitaire sport : petit,2.5,4,AV6,Z,5.7,6.4,6.0,47,140,7,6
+2025,Lexus,RC 300 AWD,Sous-compacte,3.5,6,AS6,Z,12.2,9.0,10.8,26,253,5,4
+2025,Lexus,RC 350 AWD,Sous-compacte,3.5,6,AS6,Z,12.2,9.0,10.8,26,253,5,4
+2025,Lexus,RC F,Sous-compacte,5.0,8,AS8,Z,14.4,9.6,12.2,23,285,4,4
+2025,Lexus,RX 350 AWD,Véhicule utilitaire sport : petit,2.4,4,AS8,Z,11.2,8.3,9.9,29,230,5,6
+2025,Lexus,RX 350h AWD,Véhicule utilitaire sport : petit,2.5,4,AV6,Z,6.3,6.8,6.5,43,151,7,6
+2025,Lexus,RX 500h AWD,Véhicule utilitaire sport : petit,2.4,4,AV6,Z,8.7,8.4,8.6,33,199,6,6
+2025,Lexus,TX 350 AWD,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,Z,11.5,8.9,10.3,27,241,5,6
+2025,Lexus,TX 500h AWD,Véhicule utilitaire sport : ordinaire,2.4,4,AS6,Z,8.7,8.4,8.6,33,200,6,6
+2025,Lexus,UX 300h AWD,Compacte,2.0,4,AV,X,5.3,5.9,5.6,50,130,7,6
+2025,Lexus,UX 300h AWD,Compacte,2.0,4,AV6,X,5.3,5.9,5.6,50,130,7,6
+2025,Lincoln,Aviator AWD,Véhicule utilitaire sport : ordinaire,3.0,6,AS10,X,13.8,9.5,11.9,24,278,4,5
+2025,Lincoln,Corsair AWD,Véhicule utilitaire sport : petit,2.0,4,AS8,X,11.2,8.3,9.9,29,232,5,6
+2025,Lincoln,Nautilus AWD,Véhicule utilitaire sport : petit,2.0,4,A8,X,11.2,8.1,9.8,29,231,5,6
+2025,Lincoln,Nautilus Hybrid AWD,Véhicule utilitaire sport : petit,2.0,4,AV,X,7.9,7.6,7.7,37,180,6,6
+2025,Lincoln,Navigator 4WD,Véhicule utilitaire sport : ordinaire,3.5,6,AS10,X,15.6,10.8,13.5,21,317,3,6
+2025,Maserati,Grancabrio,Sous-compacte,3.0,6,A8,Z,13.8,8.9,11.6,24,267,4,4
+2025,Maserati,Grancabrio Trofeo,Sous-compacte,3.0,6,A8,Z,13.8,8.9,11.6,24,267,4,4
+2025,Maserati,Grecale,Véhicule utilitaire sport : petit,2.0,4,A8,Z,10.9,8.4,9.8,29,227,5,4
+2025,Maserati,Grecale Modena,Véhicule utilitaire sport : petit,2.0,4,A8,Z,10.9,8.4,9.8,29,227,5,4
+2025,Maserati,Grecale Trofeo,Véhicule utilitaire sport : petit,3.0,6,A8,Z,13.3,9.5,11.6,24,268,4,4
+2025,Maserati,GT2 Stradale,Deux places,3.0,6,AS8,Z,15.4,9.5,12.8,22,295,4,4
+2025,Maserati,MC20 Spyder,Deux places,3.0,6,AS8,Z,15.6,9.4,12.8,22,299,4,4
+2025,Mazda,CX-30 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,9.0,7.1,8.2,34,192,6,6
+2025,Mazda,CX-30 Turbo 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,10.5,7.9,9.3,30,220,5,4
+2025,Mazda,CX-5 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,10.2,8.2,9.3,30,216,5,6
+2025,Mazda,CX-5 4WD (Cylinder Deactivation),Véhicule utilitaire sport : petit,2.5,4,AS6,X,9.1,7.7,8.5,33,200,6,6
+2025,Mazda,CX-5 Turbo 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,10.8,8.7,9.8,29,230,5,4
+2025,Mazda,CX-50 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,9.7,8.0,8.9,32,209,5,6
+2025,Mazda,CX-50 Turbo 4WD,Véhicule utilitaire sport : petit,2.5,4,AS6,X,10.4,8.2,9.4,30,221,5,4
+2025,Mazda,CX-50 Hybrid 4WD,Véhicule utilitaire sport : petit,2.5,4,AV,X,6.1,6.4,6.2,46,145,7,6
+2025,Mazda,CX-70 4WD,Véhicule utilitaire sport : ordinaire,3.3,6,AS8,X,9.9,8.4,9.3,30,216,5,5
+2025,Mazda,CX-70 4WD (High Power),Véhicule utilitaire sport : ordinaire,3.3,6,AS8,Z,10.3,8.5,9.5,30,222,5,5
+2025,Mazda,CX-90 4WD,Véhicule utilitaire sport : ordinaire,3.3,6,AS8,X,9.9,8.4,9.3,30,216,5,5
+2025,Mazda,CX-90 4WD (High Power),Véhicule utilitaire sport : ordinaire,3.3,6,AS8,Z,10.3,8.5,9.5,30,222,5,5
+2025,Mazda,Mazda3 4-Door,Compacte,2.5,4,AS6,X,8.4,6.3,7.5,38,175,6,6
+2025,Mazda,Mazda3 4-Door 4WD,Compacte,2.5,4,AS6,X,8.9,6.6,7.9,36,185,6,6
+2025,Mazda,Mazda3 4-Door Turbo 4WD,Compacte,2.5,4,AS6,X,10.1,7.3,8.8,32,207,5,4
+2025,Mazda,Mazda3 5-Door,Intermédiaire,2.5,4,AS6,X,8.5,6.5,7.6,37,178,6,6
+2025,Mazda,Mazda3 5-Door (SIL),Intermédiaire,2.5,4,M6,X,9.0,6.4,7.8,36,184,6,6
+2025,Mazda,Mazda3 5-Door 4WD,Intermédiaire,2.5,4,AS6,X,9.0,7.1,8.1,35,191,6,6
+2025,Mazda,Mazda3 5-Door Turbo 4WD,Intermédiaire,2.5,4,AS6,X,10.1,7.5,8.9,32,209,5,4
+2025,Mazda,MX-5,Deux places,2.0,4,AS6,Z,9.0,6.7,8.0,35,187,6,2
+2025,Mazda,MX-5 (SIL),Deux places,2.0,4,M6,Z,9.0,7.0,8.1,35,189,6,2
+2025,Mercedes-Benz,AMG C 43 4MATIC Sedan,Compacte,2.0,4,A9,Z,12.5,8.8,10.8,26,252,5,4
+2025,Mercedes-Benz,AMG CLA 35 4MATIC Coupe,Compacte,2.0,4,AM8,Z,10.8,8.0,9.6,29,225,5,5
+2025,Mercedes-Benz,AMG CLA 45 S 4MATIC Coupe,Compacte,2.0,4,AM8,Z,11.7,8.4,10.2,28,236,5,2
+2025,Mercedes-Benz,AMG CLE 53 4MATIC+ Cabriolet,Sous-compacte,3.0,6,A9,Z,12.1,9.2,10.8,26,253,5,6
+2025,Mercedes-Benz,AMG CLE 53 4MATIC+ Coupe,Sous-compacte,3.0,6,A9,Z,11.7,8.7,10.4,27,243,5,6
+2025,Mercedes-Benz,AMG G 63 SUV,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,17.4,14.7,16.2,17,378,2,4
+2025,Mercedes-Benz,AMG GLA 35 4MATIC Coupe,Familiale : petite,2.0,4,AM8,Z,10.9,8.4,9.8,29,230,5,5
+2025,Mercedes-Benz,AMG GLB 35 4MATIC Coupe,Familiale : petite,2.0,4,AM8,Z,11.5,8.9,10.3,27,242,5,5
+2025,Mercedes-Benz,AMG GLC 43 4MATIC+ SUV,Familiale : petite,2.0,4,A9,Z,12.6,9.4,11.2,25,263,4,4
+2025,Mercedes-Benz,AMG GLC 43 4MATIC Coupe,Familiale : petite,2.0,4,A9,Z,12.7,9.8,11.4,25,269,4,4
+2025,Mercedes-Benz,AMG GLE 53 4MATIC+ SUV,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,12.9,10.2,11.7,24,273,4,6
+2025,Mercedes-Benz,AMG GLE 53 4MATIC+ Coupe,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,13.2,10.7,12.1,23,282,4,6
+2025,Mercedes-Benz,AMG GLE 63 S 4MATIC+ SUV,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,17.2,12.8,15.2,19,355,3,4
+2025,Mercedes-Benz,AMG GLE 63 S 4MATIC+ Coupe,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,17.2,12.8,15.2,19,355,3,4
+2025,Mercedes-Benz,AMG GLS 63 4MATIC+ SUV,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,17.2,13.1,15.3,18,359,2,4
+2025,Mercedes-Benz,AMG GT 53 4MATIC+ ,Compacte,3.0,6,A9,Z,12.3,10.0,11.3,25,263,4,5
+2025,Mercedes-Benz,AMG GT 55 4MATIC+ Coupe,Sous-compacte,4.0,8,A9,Z,19.7,12.6,16.5,17,387,2,4
+2025,Mercedes-Benz,AMG GT 63 4MATIC+,Compacte,4.0,8,A9,Z,15.3,11.3,13.5,21,318,3,4
+2025,Mercedes-Benz,AMG GT 63 4MATIC+ Coupe,Sous-compacte,4.0,8,A9,Z,19.7,12.6,16.5,17,387,2,4
+2025,Mercedes-Benz,AMG GT 63 PRO 4MATIC+ Coupe,Sous-compacte,4.0,8,A9,Z,19.7,12.6,16.5,17,387,2,4
+2025,Mercedes-Benz,AMG SL 43 4MATIC Roadster,Minicompacte,2.0,4,A9,Z,12.2,8.8,10.7,26,249,5,4
+2025,Mercedes-Benz,AMG SL 55 4MATIC+ Roadster,Minicompacte,4.0,8,A9,Z,18.2,11.3,15.1,19,347,3,4
+2025,Mercedes-Benz,AMG SL 63 4MATIC+ Roadster,Minicompacte,4.0,8,A9,Z,18.2,11.3,15.1,19,347,3,4
+2025,Mercedes-Benz,C 300 4MATIC Sedan,Compacte,2.0,4,A9,Z,10.0,7.1,8.7,32,204,5,7
+2025,Mercedes-Benz,CLA 250 4MATIC Coupe,Compacte,2.0,4,AM8,Z,9.3,6.9,8.2,34,193,6,6
+2025,Mercedes-Benz,CLE 300 4MATIC Cabriolet,Sous-compacte,2.0,4,A9,Z,10.4,7.4,9.1,31,211,5,7
+2025,Mercedes-Benz,CLE 300 4MATIC Coupe,Sous-compacte,2.0,4,A9,Z,9.8,7.1,8.6,33,201,6,7
+2025,Mercedes-Benz,CLE 450 4MATIC Cabriolet,Sous-compacte,3.0,6,A9,Z,10.2,7.4,8.9,32,210,5,6
+2025,Mercedes-Benz,CLE 450 4MATIC Coupe,Sous-compacte,3.0,6,A9,Z,10.4,7.1,9.0,31,211,5,6
+2025,Mercedes-Benz,E 350 4MATIC Sedan,Intermédiaire,2.0,4,A9,Z,10.0,7.2,8.7,32,203,5,7
+2025,Mercedes-Benz,E 450 4MATIC Sedan,Intermédiaire,3.0,6,A9,Z,10.8,7.7,9.4,30,221,5,6
+2025,Mercedes-Benz,G 550 SUV,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,13.6,12.4,13.1,22,305,4,6
+2025,Mercedes-Benz,GLA 250 4MATIC SUV,Véhicule utilitaire sport : petit,2.0,4,AM8,Z,9.4,7.1,8.4,34,196,6,6
+2025,Mercedes-Benz,GLB 250 4MATIC SUV,Véhicule utilitaire sport : petit,2.0,4,AM8,Z,9.8,7.2,8.6,33,201,5,6
+2025,Mercedes-Benz,GLC 300 4MATIC SUV,Véhicule utilitaire sport : petit,2.0,4,A9,Z,10.0,7.6,8.9,32,210,5,6
+2025,Mercedes-Benz,GLC 300 4MATIC Coupe,Véhicule utilitaire sport : petit,2.0,4,A9,Z,10.1,7.7,9.0,31,210,5,6
+2025,Mercedes-Benz,GLE 350 4MATIC SUV,Véhicule utilitaire sport : ordinaire,2.0,4,A9,Z,12.2,9.2,10.8,26,255,5,6
+2025,Mercedes-Benz,GLE 450 4MATIC SUV,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,12.5,9.6,11.2,25,264,4,6
+2025,Mercedes-Benz,GLE 450 4MATIC Coupe,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,12.5,9.6,11.2,25,264,4,6
+2025,Mercedes-Benz,GLS 450 4MATIC SUV,Véhicule utilitaire sport : ordinaire,3.0,6,A9,Z,12.7,9.6,11.3,25,266,4,6
+2025,Mercedes-Benz,GLS 580 4MATIC SUV,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,16.6,12.1,14.6,19,340,3,4
+2025,Mercedes-Benz,GLS 600 4MATIC Maybach SUV,Véhicule utilitaire sport : ordinaire,4.0,8,A9,Z,17.9,12.9,15.6,18,365,2,4
+2025,Mercedes-Benz,Maybach S 580 4MATIC Sedan,Grande berline,4.0,8,A9,Z,14.6,8.8,12.0,24,280,4,4
+2025,Mercedes-Benz,Maybach S 680 4MATIC Sedan,Grande berline,6.0,12,A9,Z,19.8,11.6,16.1,18,375,2,2
+2025,Mercedes-Benz,S 500 4MATIC Sedan,Grande berline,3.0,6,A9,Z,11.2,7.7,9.6,29,226,5,6
+2025,Mercedes-Benz,S 580 4MATIC Sedan,Grande berline,4.0,8,A9,Z,14.1,9.4,12.0,24,278,4,4
+2025,MINI,Cooper 3 Door,Sous-compacte,2.0,4,AM7,Z,8.5,6.0,7.4,38,171,6,6
+2025,MINI,Cooper 5 Door,Compacte,2.0,4,AM7,Z,8.5,6.0,7.4,38,171,6,6
+2025,MINI,Cooper Convertible,Minicompacte,2.0,4,AM7,Z,8.8,6.4,7.7,37,179,6,6
+2025,MINI,Cooper S 3 Door,Sous-compacte,2.0,4,AM7,Z,8.5,6.1,7.4,38,171,6,6
+2025,MINI,Cooper S 5 Door,Compacte,2.0,4,AM7,Z,8.4,6.1,7.3,39,170,6,6
+2025,MINI,Cooper S Convertible,Minicompacte,2.0,4,AM7,Z,8.9,6.6,7.9,36,181,6,6
+2025,MINI,Cooper S Countryman ALL4,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,9.8,7.3,8.7,32,201,6,6
+2025,MINI,John Cooper Works 3 Door,Sous-compacte,2.0,4,AM7,Z,8.8,6.4,7.7,37,179,6,7
+2025,MINI,John Cooper Works Convertible,Minicompacte,2.0,4,AM7,Z,9.0,6.6,7.9,36,184,6,7
+2025,MINI,John Cooper Works Countryman ALL4,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,10.2,7.9,9.2,31,212,5,5
+2025,Mitsubishi,Eclipse Cross 4WD,Véhicule utilitaire sport : petit,1.5,4,AV8,X,9.6,8.9,9.3,30,216,5,4
+2025,Mitsubishi,Outlander 4WD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,9.8,7.9,8.9,32,209,5,5
+2025,Mitsubishi,RVR,Véhicule utilitaire sport : petit,2.0,4,AV6,X,9.7,7.8,8.9,32,207,5,4
+2025,Mitsubishi,RVR 4WD,Véhicule utilitaire sport : petit,2.0,4,AV6,X,10.0,8.1,9.1,31,213,5,4
+2025,Mitsubishi,RVR 4WD,Véhicule utilitaire sport : petit,2.4,4,AV6,X,10.3,8.3,9.4,30,218,5,4
+2025,Nissan,Altima AWD,Intermédiaire,2.5,4,AV,X,9.3,6.9,8.2,34,193,6,6
+2025,Nissan,Altima AWD SR/Platinum,Intermédiaire,2.5,4,AV8,X,9.5,7.1,8.4,34,198,6,6
+2025,Nissan,Armada 4WD,Véhicule utilitaire sport : ordinaire,3.5,6,AS9,Z,14.7,12.4,13.7,21,323,3,5
+2025,Nissan,Armada 4WD PRO-4X,Véhicule utilitaire sport : ordinaire,3.5,6,AS9,Z,15.7,12.9,14.4,20,339,3,5
+2025,Nissan,Frontier,Camionnette : ordinaire,3.8,6,AS9,X,13.4,9.5,11.6,24,274,4,5
+2025,Nissan,Frontier 4WD,Camionnette : ordinaire,3.8,6,AS9,X,13.4,11.0,12.3,23,289,4,5
+2025,Nissan,Frontier 4WD PRO-4X,Camionnette : ordinaire,3.8,6,AS9,X,14.3,11.5,13.0,22,306,4,5
+2025,Nissan,Kicks,Véhicule utilitaire sport : petit,2.0,4,AV,X,8.1,6.6,7.4,38,175,6,6
+2025,Nissan,Kicks AWD,Véhicule utilitaire sport : petit,2.0,4,AV,X,8.4,6.9,7.7,37,182,6,6
+2025,Nissan,Kicks Play,Intermédiaire,1.6,4,AV,X,7.7,6.6,7.2,39,169,6,6
+2025,Nissan,Murano AWD,Véhicule utilitaire sport : petit,2.0,4,AS9,X,10.6,8.6,9.7,29,229,5,5
+2025,Nissan,Pathfinder 4WD,Véhicule utilitaire sport : petit,3.5,6,AS9,X,11.7,9.3,10.6,27,248,5,4
+2025,Nissan,Pathfinder 4WD Rock Creek,Véhicule utilitaire sport : ordinaire,3.5,6,AS9,Z,11.9,10.0,11.1,25,260,4,4
+2025,Nissan,Rogue,Véhicule utilitaire sport : petit,1.5,3,AV8,X,7.8,6.5,7.2,39,169,6,5
+2025,Nissan,Rogue AWD,Véhicule utilitaire sport : petit,1.5,3,AV8,X,8.4,6.7,7.6,37,179,6,5
+2025,Nissan,Sentra,Intermédiaire,2.0,4,AV,X,7.3,5.9,6.6,43,156,7,6
+2025,Nissan,Sentra SR,Intermédiaire,2.0,4,AV,X,7.4,6.1,6.9,41,161,7,6
+2025,Nissan,Sentra,Intermédiaire,2.0,4,M6,X,9.4,6.4,8.0,35,189,6,6
+2025,Nissan,Sentra SR,Intermédiaire,2.0,4,M6,X,9.5,6.7,8.2,34,194,6,6
+2025,Nissan,Versa,Compacte,1.6,4,AV,X,7.5,5.9,6.8,42,159,7,6
+2025,Nissan,Versa,Compacte,1.6,4,M5,X,8.6,6.7,7.7,37,181,6,6
+2025,Nissan,Z,Deux places,3.0,6,AS9,Z,12.3,8.6,10.6,27,250,5,4
+2025,Nissan,Z,Deux places,3.0,6,M6,Z,13.4,10.0,11.9,24,280,4,4
+2025,Nissan,Z NISMO,Deux places,3.0,6,AS9,Z,14.1,9.9,12.2,23,287,4,4
+2025,Porsche,718 Boxster,Deux places,2.0,4,AM7,Z,11.0,8.7,10.0,28,233,5,1
+2025,Porsche,718 Boxster,Deux places,2.0,4,M6,Z,12.0,9.5,10.9,26,254,5,1
+2025,Porsche,718 Boxster S,Deux places,2.5,4,AM7,Z,12.2,9.2,10.9,26,255,5,1
+2025,Porsche,718 Boxster S,Deux places,2.5,4,M6,Z,12.5,9.6,11.2,25,263,4,1
+2025,Porsche,718 Boxster GTS,Deux places,4.0,6,AM7,Z,12.3,9.8,11.1,25,260,4,4
+2025,Porsche,718 Boxster GTS,Deux places,4.0,6,M6,Z,14.0,10.0,12.2,23,284,4,4
+2025,Porsche,718 Cayman,Deux places,2.0,4,AM7,Z,11.0,8.7,10.0,28,233,5,1
+2025,Porsche,718 Cayman,Deux places,2.0,4,M6,Z,12.0,9.5,10.9,26,254,5,1
+2025,Porsche,718 Cayman S,Deux places,2.5,4,AM7,Z,12.2,9.2,10.9,26,255,5,1
+2025,Porsche,718 Cayman S,Deux places,2.5,4,M6,Z,12.5,9.6,11.2,25,263,4,1
+2025,Porsche,718 Cayman GTS,Deux places,4.0,6,AM7,Z,12.3,9.8,11.1,25,260,4,4
+2025,Porsche,718 Cayman GTS,Deux places,4.0,6,M6,Z,14.0,10.0,12.2,23,284,4,4
+2025,Porsche,718 GT4 RS,Deux places,4.0,6,AM7,Z,16.0,12.5,14.4,20,338,3,2
+2025,Porsche,718 Spyder RS,Deux places,4.0,6,AM7,Z,16.5,12.4,14.6,19,342,3,2
+2025,Porsche,911 Carrera,Minicompacte,3.0,6,AM8,Z,12.9,9.2,11.3,25,263,4,4
+2025,Porsche,911 Carrera Cabriolet,Minicompacte,3.0,6,AM8,Z,13.0,9.4,11.4,25,264,4,4
+2025,Porsche,911 Carrera S,Minicompacte,3.0,6,AM8,Z,12.9,9.5,11.4,25,268,4,4
+2025,Porsche,911 Carrera S Cabriolet,Minicompacte,3.0,6,AM8,Z,13.2,9.4,11.5,25,271,4,4
+2025,Porsche,911 Carrera T,Minicompacte,3.0,6,M6,Z,13.8,9.4,11.8,24,278,4,4
+2025,Porsche,911 Carrera T Cabriolet,Minicompacte,3.0,6,M6,Z,13.9,9.4,11.9,24,280,4,4
+2025,Porsche,911 Carrera GTS,Minicompacte,3.6,6,AM8,Z,13.2,9.7,11.6,24,273,4,5
+2025,Porsche,911 Carrera 4 GTS,Minicompacte,3.6,6,AM8,Z,13.8,10.2,12.2,23,286,4,5
+2025,Porsche,911 Carrera GTS Cabriolet,Minicompacte,3.6,6,AM8,Z,13.7,10.1,12.1,23,285,4,5
+2025,Porsche,911 Carrera 4 GTS Cabriolet,Minicompacte,3.6,6,AM8,Z,13.5,10.1,12.0,24,282,4,5
+2025,Porsche,911 GT3,Deux places,4.0,6,AM7,Z,16.5,13.4,15.1,19,355,3,5
+2025,Porsche,911 GT3,Deux places,4.0,6,M6,Z,16.9,12.7,15.0,19,354,3,5
+2025,Porsche,911 GT3 RS,Deux places,4.0,6,AM7,Z,16.8,13.0,15.1,19,354,3,2
+2025,Porsche,911 GT3 Touring,Deux places,4.0,6,AM7,Z,16.6,13.0,15.0,19,353,3,5
+2025,Porsche,911 GT3 Touring,Deux places,4.0,6,M6,Z,17.3,12.7,15.2,19,359,2,5
+2025,Porsche,911 Targa 4 GTS,Minicompacte,3.6,6,AM8,Z,13.7,10.1,12.1,23,283,4,5
+2025,Porsche,911 Turbo,Minicompacte,3.7,6,AM8,Z,16.5,11.4,14.2,20,332,3,4
+2025,Porsche,911 Turbo Cabriolet,Minicompacte,3.7,6,AM8,Z,16.9,11.5,14.5,19,339,3,4
+2025,Porsche,911 Turbo S,Minicompacte,3.7,6,AM8,Z,16.6,11.8,14.4,20,332,3,4
+2025,Porsche,911 Turbo S Cabriolet,Minicompacte,3.7,6,AM8,Z,16.7,11.8,14.5,19,336,3,4
+2025,Porsche,Cayenne,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.8,10.2,12.2,23,291,4,4
+2025,Porsche,Cayenne Coupe,Véhicule utilitaire sport : ordinaire,3.0,6,AS8,Z,13.8,10.2,12.2,23,291,4,4
+2025,Porsche,Cayenne GTS,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,15.0,10.8,13.1,22,310,4,4
+2025,Porsche,Cayenne GTS Coupe,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,14.7,10.4,12.7,22,301,4,4
+2025,Porsche,Cayenne S,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,15.3,11.2,13.5,21,324,3,4
+2025,Porsche,Cayenne S Coupe,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,15.7,11.0,13.6,21,324,3,4
+2025,Porsche,Cayenne Turbo GT Coupe,Véhicule utilitaire sport : ordinaire,4.0,8,AS8,Z,15.5,11.8,13.8,20,324,3,2
+2025,Porsche,Macan,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,12.4,9.3,11.0,26,263,4,4
+2025,Porsche,Macan T,Véhicule utilitaire sport : petit,2.0,4,AM7,Z,12.2,9.6,11.0,26,259,4,4
+2025,Porsche,Macan S,Véhicule utilitaire sport : petit,2.9,6,AM7,Z,13.8,10.1,12.2,23,289,4,4
+2025,Porsche,Macan GTS,Véhicule utilitaire sport : petit,2.9,6,AM7,Z,13.5,10.7,12.2,23,290,4,4
+2025,Porsche,Panamera,Grande berline,2.9,6,AM8,Z,13.1,9.4,11.4,25,268,4,4
+2025,Porsche,Panamera 4,Grande berline,2.9,6,AM8,Z,13.1,9.4,11.4,25,264,4,4
+2025,Porsche,Panamera GTS,Grande berline,4.0,8,AM8,Z,14.7,9.8,12.5,23,295,4,4
+2025,Ram,1500,Camionnette : ordinaire,3.0,6,A8,X,13.1,9.4,11.5,25,269,4,6
+2025,Ram,1500 eTorque,Camionnette : ordinaire,3.6,6,A8,X,11.9,9.4,10.8,26,253,5,6
+2025,Ram,1500 4X4,Camionnette : ordinaire,3.0,6,A8,X,14.0,9.8,12.1,23,284,4,6
+2025,Ram,1500 4X4 eTorque,Camionnette : ordinaire,3.6,6,A8,X,12.2,9.7,11.0,26,259,4,6
+2025,Ram,1500 4X4 HO,Camionnette : ordinaire,3.0,6,A8,Z,15.7,11.5,13.8,20,324,3,6
+2025,Ram,1500 4X4 RHO,Camionnette : ordinaire,3.0,6,A8,Z,16.7,14.9,15.9,18,374,2,6
+2025,Rolls-Royce,Cullinan,Véhicule utilitaire sport : ordinaire,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Black Badge Cullinan,Véhicule utilitaire sport : ordinaire,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Ghost,Grande berline,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Black Badge Ghost,Grande berline,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Ghost Extended,Grande berline,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Phantom,Grande berline,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Rolls-Royce,Phantom Extended,Grande berline,6.7,12,AS8,Z,19.7,12.4,16.4,17,379,2,2
+2025,Subaru,Ascent AWD,Véhicule utilitaire sport : ordinaire,2.4,4,AV8,X,12.3,9.4,11.0,26,257,5,4
+2025,Subaru,BRZ,Minicompacte,2.4,4,AS6,Z,11.1,7.8,9.6,29,225,5,2
+2025,Subaru,BRZ,Minicompacte,2.4,4,M6,Z,12.0,8.8,10.5,27,247,5,2
+2025,Subaru,Crosstrek AWD,Véhicule utilitaire sport : petit,2.0,4,AV8,X,8.8,7.0,8.0,35,188,6,6
+2025,Subaru,Crosstrek AWD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,8.9,7.2,8.1,35,190,6,6
+2025,Subaru,Crosstrek Wilderness AWD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,9.4,8.1,8.8,32,206,5,6
+2025,Subaru,Forester AWD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,9.1,7.2,8.3,34,194,6,6
+2025,Subaru,Forester Wilderness AWD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,9.5,8.3,9.0,31,210,5,6
+2025,Subaru,Forester e-BOXER Hybrid AWD,Véhicule utilitaire sport : petit,2.5,4,AV6,X,6.8,7.0,6.9,41,161,7,7
+2025,Subaru,Impreza AWD,Familiale : petite,2.0,4,AV8,X,8.8,6.9,8.0,35,185,6,6
+2025,Subaru,Impreza AWD,Familiale : petite,2.5,4,AV8,X,9.0,7.2,8.2,34,191,6,6
+2025,Subaru,Outback AWD,Véhicule utilitaire sport : petit,2.4,4,AV8,X,10.6,8.1,9.5,30,221,5,5
+2025,Subaru,Outback AWD,Véhicule utilitaire sport : petit,2.5,4,AV8,X,9.2,7.3,8.3,34,195,6,6
+2025,Subaru,Outback Wilderness AWD,Véhicule utilitaire sport : petit,2.4,4,AV8,X,11.0,9.0,10.1,28,235,5,5
+2025,Subaru,WRX AWD,Intermédiaire,2.4,4,AV8,Z,12.7,9.4,11.2,25,262,4,2
+2025,Subaru,WRX AWD,Intermédiaire,2.4,4,M6,Z,12.4,9.0,10.9,26,255,5,2
+2025,Toyota,4Runner 4WD (Part-Time 4WD),Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,12.4,9.6,11.2,25,262,4,6
+2025,Toyota,4Runner 4WD Limited,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,12.0,9.9,11.1,25,258,4,6
+2025,Toyota,4Runner Hybrid 4WD (Part-Time 4WD),Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,10.3,9.5,9.9,29,232,5,6
+2025,Toyota,4Runner Hybrid 4WD Platinum,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,10.5,9.7,10.1,28,236,5,6
+2025,Toyota,Camry,Intermédiaire,2.5,4,AV,X,4.9,4.9,4.9,58,114,8,6
+2025,Toyota,Camry AWD SE/XLE,Intermédiaire,2.5,4,AV,X,5.1,5.1,5.1,55,117,8,6
+2025,Toyota,Camry AWD XSE,Intermédiaire,2.5,4,AV,X,5.3,5.5,5.3,53,124,8,6
+2025,Toyota,Corolla (1-mode),Compacte,2.0,4,AV,X,7.4,5.7,6.7,42,158,7,6
+2025,Toyota,Corolla (3-mode),Compacte,2.0,4,AV10,X,7.6,5.9,6.8,42,160,7,6
+2025,Toyota,Corolla Hatchback,Compacte,2.0,4,AV10,X,7.5,5.9,6.8,42,159,7,6
+2025,Toyota,Corolla Hybrid,Compacte,1.8,4,AV,X,4.4,5.1,4.7,60,110,8,6
+2025,Toyota,Corolla Hybrid AWD (2-mode),Compacte,1.8,4,AV,X,4.6,5.3,4.9,58,115,8,6
+2025,Toyota,Corolla Hybrid AWD (3-mode),Compacte,1.8,4,AV,X,5.0,5.7,5.3,53,124,8,6
+2025,Toyota,Corolla Cross,Véhicule utilitaire sport : petit,2.0,4,AV10,X,7.6,7.2,7.4,38,172,6,6
+2025,Toyota,Corolla Cross AWD,Véhicule utilitaire sport : petit,2.0,4,AV10,X,8.1,7.5,7.8,36,183,6,6
+2025,Toyota,Corolla Cross Hybrid AWD,Véhicule utilitaire sport : petit,2.0,4,AV6,X,5.2,6.2,5.6,50,130,7,6
+2025,Toyota,Crown AWD,Intermédiaire,2.4,4,AS6,X,8.1,7.3,7.8,36,182,6,6
+2025,Toyota,Crown AWD,Intermédiaire,2.5,4,AV,X,5.6,5.7,5.7,50,133,7,6
+2025,Toyota,Crown Signia AWD,Familiale : petite,2.5,4,AV,X,6.0,6.3,6.2,46,143,7,6
+2025,Toyota,GR Corolla,Sous-compacte,1.6,3,AS8,Z,12.1,8.6,10.5,27,245,5,4
+2025,Toyota,GR Corolla,Sous-compacte,1.6,3,M6,Z,11.1,8.3,9.8,29,229,5,4
+2025,Toyota,GR Supra 3.0,Deux places,3.0,6,AS8,Z,10.2,7.7,9.1,31,212,5,4
+2025,Toyota,GR Supra 3.0,Deux places,3.0,6,M6,Z,12.7,8.8,10.9,26,255,5,4
+2025,Toyota,GR86,Minicompacte,2.4,4,AS6,Z,11.2,7.8,9.7,29,227,5,2
+2025,Toyota,GR86,Minicompacte,2.4,4,M6,Z,12.0,8.9,10.6,27,250,5,2
+2025,Toyota,Grand Highlander AWD Limited,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,11.6,9.0,10.7,26,249,5,6
+2025,Toyota,Grand Highlander AWD XLE,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,X,11.2,8.6,10.0,28,236,5,6
+2025,Toyota,Grand Highlander Hybrid AWD,Véhicule utilitaire sport : ordinaire,2.5,4,AV6,X,6.6,7.4,7.0,40,161,7,6
+2025,Toyota,Grand Highlander Hybrid MAX AWD,Véhicule utilitaire sport : ordinaire,2.4,4,AV6,X,9.0,8.6,8.8,32,206,5,6
+2025,Toyota,Highlander AWD,Véhicule utilitaire sport : petit,2.4,4,AS8,X,11.0,8.4,9.9,29,231,5,6
+2025,Toyota,Highlander Hybrid AWD,Véhicule utilitaire sport : ordinaire,2.5,4,AV,X,6.7,6.8,6.7,42,158,7,6
+2025,Toyota,Highlander Hybrid AWD Limited/Platinum,Véhicule utilitaire sport : ordinaire,2.5,4,AV,X,6.6,6.8,6.7,42,156,7,6
+2025,Toyota,Land Cruiser,Véhicule utilitaire sport : ordinaire,2.4,4,AS8,Z,10.7,9.5,10.1,28,236,5,5
+2025,Toyota,Prius AWD,Intermédiaire,2.0,4,AV,X,4.8,4.7,4.8,59,111,8,6
+2025,Toyota,RAV4 AWD,Véhicule utilitaire sport : petit,2.5,4,AS8,X,9.5,7.2,8.5,33,198,6,5
+2025,Toyota,RAV4 AWD (Stop/Start),Véhicule utilitaire sport : petit,2.5,4,AS8,X,8.8,7.1,8.0,35,187,6,5
+2025,Toyota,RAV4 AWD LE,Véhicule utilitaire sport : petit,2.5,4,AS8,X,8.7,6.9,7.9,36,184,6,5
+2025,Toyota,RAV4 Hybrid AWD,Véhicule utilitaire sport : petit,2.5,4,AV,X,5.8,6.3,6.0,47,140,7,6
+2025,Toyota,RAV4 Hybrid AWD Woodland Edition,Véhicule utilitaire sport : petit,2.5,4,AV,X,6.1,6.8,6.4,44,149,7,6
+2025,Toyota,Sequoia 4WD,Véhicule utilitaire sport : ordinaire,3.4,6,AS10,X,12.6,10.5,11.7,24,273,4,4
+2025,Toyota,Sienna,Fourgonnette,2.5,4,AV,X,6.6,6.5,6.6,43,153,7,6
+2025,Toyota,Sienna AWD,Fourgonnette,2.5,4,AV,X,6.8,6.7,6.8,42,158,7,6
+2025,Toyota,Tacoma 4WD (2-mode),Camionnette : petite,2.4,4,AS8,X,12.5,9.6,11.2,25,264,4,6
+2025,Toyota,Tacoma 4WD (3-mode),Camionnette : petite,2.4,4,AS8,X,12.4,10.2,11.4,25,269,4,6
+2025,Toyota,Tacoma 4WD,Camionnette : petite,2.4,4,M6,X,13.2,10.3,11.9,24,279,4,4
+2025,Toyota,Tacoma Hybrid 4WD,Camionnette : ordinaire,2.4,4,AS8,X,10.5,9.9,10.3,27,239,5,6
+2025,Toyota,Tacoma Hybrid 4WD Limited,Camionnette : ordinaire,2.4,4,AS8,X,10.5,9.7,10.1,28,236,5,6
+2025,Toyota,Tundra,Camionnette : ordinaire,3.4,6,AS10,X,13.3,10.5,12.0,24,283,4,4
+2025,Toyota,Tundra 4WD (1-mode),Camionnette : ordinaire,3.4,6,AS10,X,13.7,10.8,12.4,23,291,4,4
+2025,Toyota,Tundra 4WD (3-mode)/TRD,Camionnette : ordinaire,3.4,6,AS10,X,13.5,10.6,12.2,23,286,4,4
+2025,Toyota,Tundra Hybrid 4WD,Camionnette : ordinaire,3.4,6,AS10,X,12.7,10.5,11.7,24,274,4,4
+2025,Toyota,Tundra Hybrid 4WD TRD PRO,Camionnette : ordinaire,3.4,6,AS10,X,12.9,11.6,12.3,23,287,4,4
+2025,Volkswagen,Atlas 4MOTION Comfortline,Véhicule utilitaire sport : petit,2.0,4,AS8,X,12.7,9.2,11.1,25,262,4,4
+2025,Volkswagen,Atlas 4MOTION Highline/Execline,Véhicule utilitaire sport : petit,2.0,4,AS8,X,12.8,9.4,11.3,25,266,4,4
+2025,Volkswagen,Atlas 4MOTION Peak Edition,Véhicule utilitaire sport : petit,2.0,4,AS8,X,13.2,9.4,11.5,25,271,4,4
+2025,Volkswagen,Atlas Cross Sport 4MOTION,Véhicule utilitaire sport : petit,2.0,4,AS8,X,12.7,9.2,11.1,25,262,4,4
+2025,Volkswagen,Golf GTI,Compacte,2.0,4,AM7,X,9.9,7.4,8.8,32,205,5,4
+2025,Volkswagen,Golf R,Compacte,2.0,4,AM7,Z,10.5,7.7,9.3,30,217,5,4
+2025,Volkswagen,Jetta,Compacte,1.5,4,AS8,X,8.4,6.1,7.4,38,174,6,6
+2025,Volkswagen,Jetta GLI,Compacte,2.0,4,AM7,X,9.5,6.7,8.2,34,194,6,6
+2025,Volkswagen,Jetta GLI,Compacte,2.0,4,M6,X,9.1,6.5,8.0,35,187,6,6
+2025,Volkswagen,Taos,Véhicule utilitaire sport : petit,1.5,4,AS8,X,8.4,6.5,7.6,37,178,6,7
+2025,Volkswagen,Taos 4MOTION,Véhicule utilitaire sport : petit,1.5,4,AS8,X,9.4,7.2,8.4,34,198,6,7
+2025,Volkswagen,Tiguan 4MOTION,Véhicule utilitaire sport : petit,2.0,4,AS8,X,10.5,7.8,9.3,30,218,5,6
+2025,Volvo,S60 B5 AWD,Compacte,2.0,4,AS8,Z,9.3,7.0,8.3,34,194,6,4
+2025,Volvo,S90 B6 AWD,Intermédiaire,2.0,4,AS8,Z,10.6,7.6,9.2,31,216,5,6
+2025,Volvo,V60 CC B5 AWD,Familiale : petite,2.0,4,AS8,Z,9.7,7.5,8.7,32,205,5,4
+2025,Volvo,V90 CC B6 AWD,Familiale : intermédiaire,2.0,4,AS8,Z,10.7,8.1,9.5,30,223,5,6
+2025,Volvo,XC40 B5 AWD,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,10.1,7.8,9.1,31,213,5,4
+2025,Volvo,XC60 B5 AWD,Véhicule utilitaire sport : petit,2.0,4,AS8,Z,10.0,7.8,9.0,31,212,5,6
+2025,Volvo,XC90 B6 AWD,Véhicule utilitaire sport : ordinaire,2.0,4,AS8,Z,11.5,9.0,10.4,27,244,5,6

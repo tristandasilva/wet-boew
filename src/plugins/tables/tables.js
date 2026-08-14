@@ -78,55 +78,213 @@ var componentName = "wb-tables",
 				dom: "<'top'fil>rt<'bottom'p><'clear'>"
 			};
 
-			Modernizr.load( {
-				load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
-				testReady: function() {
-					return ( $.fn.dataTable && $.fn.dataTable.version );
-				},
-				complete: function() {
-					var $elm = $( "#" + elmId ),
-						dataTableExt = $.fn.dataTableExt,
-						settings = wb.getData( $elm, componentName ) || {};
+			// Check if the instance is referencing a CSV file to load into the DataTable
+			var csvSettings = getCsvSettings( elm );
 
-					// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
-					if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
-						settings.paging = settings.paging ? settings.paging : false;
-					}
-
-					/*
-					 * Extend sorting support
-					 */
-					$.extend( dataTableExt.type.order, {
-
-						// Enable internationalization support in the sorting
-						"html-pre": function( a ) {
-							return wb.normalizeDiacritics(
-								!a ? "" : a.replace ?
-									a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
-							);
-						},
-						"string-case-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-						"string-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-
-						// Formatted number sorting
-						"formatted-num-asc": function( a, b ) {
-							return wb.formattedNumCompare( a, b );
-						},
-						"formatted-num-desc": function( a, b ) {
-							return wb.formattedNumCompare( b, a );
+			// If a CSV file is detected: fetch it, parse it, build the table headers, then load it into the DataTable
+			if ( csvSettings ) {
+				fetch( csvSettings.url )
+					.then( function( response ) {
+						if ( !response.ok ) {
+							throw new Error( "Error fetching CSV file from " + csvSettings.url + ": " + response.statusText );
 						}
-					} );
+						return response.text();
+					} )
+					.then( function( csvText ) {
 
-					// Create the DataTable object
-					$elm.dataTable( $.extend( true, {}, defaults, window[ componentName ], settings ) );
-				}
-			} );
+						// Parse the CSV text
+						var parsedCsvText = parseCSV( csvText, csvSettings.delimiter || "," );
+
+						// Build the table header from the parsed CSV columns
+						buildTableHead( document.getElementById( elmId ), parsedCsvText.headers, csvSettings.preserveHeaderCase );
+
+						// Load the DataTable with the parsed CSV data
+						loadDataTable( elmId, {
+							data: parsedCsvText.data,
+							columns: parsedCsvText.headers.map( function( header ) {
+								return { data: header };
+							} ),
+							deferRender: true // To improve performance for larger CSV files
+						} );
+					} )
+					.catch( function( e ) {
+						console.error( e );
+					} );
+			} else {
+
+				// Load table normally, no CSV file involved
+				loadDataTable( elmId );
+			}
 		}
 	},
+
+	loadDataTable = function( elmId, extraSettings ) {
+
+		Modernizr.load( {
+			load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
+			testReady: function() {
+				return ( $.fn.dataTable && $.fn.dataTable.version );
+			},
+			complete: function() {
+				var $elm = $( "#" + elmId ),
+					dataTableExt = $.fn.dataTableExt,
+					settings = wb.getData( $elm, componentName ) || {},
+					config;
+
+				// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
+				if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
+					settings.paging = settings.paging ? settings.paging : false;
+				}
+
+				/*
+				 * Extend sorting support
+				 */
+				$.extend( dataTableExt.type.order, {
+
+					// Enable internationalization support in the sorting
+					"html-pre": function( a ) {
+						return wb.normalizeDiacritics(
+							!a ? "" : a.replace ?
+								a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
+						);
+					},
+					"string-case-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+					"string-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+
+					// Formatted number sorting
+					"formatted-num-asc": function( a, b ) {
+						return wb.formattedNumCompare( a, b );
+					},
+					"formatted-num-desc": function( a, b ) {
+						return wb.formattedNumCompare( b, a );
+					}
+				} );
+
+				config = $.extend( true, {}, defaults, window[ componentName ], settings );
+
+				// Create the DataTable object
+				$elm.dataTable( $.extend( config, extraSettings ) );
+			}
+		} );
+	},
+
+	getCsvSettings = function( elm ) {
+
+		var csvAttr = elm.getAttribute( "data-wb-csv" ) ? elm.getAttribute( "data-wb-csv" ).trim() : null,
+			settings;
+
+		if ( !csvAttr ) {
+			return;
+		}
+
+		if ( csvAttr.charAt( 0 ) === "{" ) {
+			try {
+				settings = JSON.parse( csvAttr );
+			} catch ( err ) {
+				console.error( "Error parsing data-wb-csv JSON for instance with id: " + elm.id );
+				return;
+			}
+		} else {
+			settings = { url: csvAttr };
+		}
+
+		return settings;
+	},
+
+	// Build <thead> row from parsed CSV header names
+	buildTableHead = function( table, headers, preserveHeaderCase ) {
+
+		var thead = document.createElement( "thead" ),
+			tr = document.createElement( "tr" );
+
+		headers.forEach( function( header ) {
+			var th = document.createElement( "th" );
+			th.textContent = preserveHeaderCase ?
+				header :
+				header.charAt( 0 ).toUpperCase() + header.slice( 1 );
+			tr.appendChild( th );
+		} );
+		thead.appendChild( tr );
+		table.appendChild( thead );
+	},
+
+	// Small CSV parser, leaves values untrimmed
+	parseCSV = function( text, delimiter ) {
+
+		var rows = [],
+			row = [],
+			value = "",
+			inQuotes = false,
+			i = 0,
+			headers, data, character;
+
+		while ( i < text.length ) {
+			character = text[ i ];
+
+			if ( inQuotes ) {
+				if ( character === "\"" ) {
+					if ( text[ i + 1 ] === "\"" ) {
+						value += "\""; // Escaped quote
+						i += 2;
+						continue;
+					}
+					inQuotes = false;
+					i++;
+					continue;
+				}
+				value += character;
+				i++;
+				continue;
+			}
+
+			if ( character === "\"" ) {
+				inQuotes = true;
+			} else if ( character === delimiter ) {
+				row.push( value );
+				value = "";
+			} else if ( character === "\n" ) {
+				row.push( value );
+				rows.push( row );
+				row = [];
+				value = "";
+			} else if ( character !== "\r" ) { // Ignore CR (handles CRLF)
+				value += character;
+			}
+			i++;
+		}
+
+		// Account for files that don't end with an newline
+		// which would exclude the last row of values from the table
+		if ( value !== "" || row.length > 0 ) {
+			row.push( value );
+			rows.push( row );
+		}
+
+		// Exclude blank lines
+		rows = rows.filter( function( values ) {
+			return !( values.length === 1 && values[ 0 ] === "" );
+		} );
+
+		if ( rows.length === 0 ) {
+			return { headers: [], data: [] };
+		}
+
+		headers = rows[ 0 ];
+		data = rows.slice( 1 ).map( function( row ) {
+			var rowObj = {};
+			headers.forEach( function( name, index ) {
+				rowObj[ name ] = index < row.length ? row[ index ] : "";
+			} );
+			return rowObj;
+		} );
+
+		return { headers: headers, data: data };
+	},
+
 	updatePaginationMarkup = function( $pagination, setFocusOnId ) {
 
 		var ol = document.createElement( "OL" ),

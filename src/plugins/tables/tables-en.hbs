@@ -7,7 +7,7 @@
 	"tag": "tables",
 	"parentdir": "tables",
 	"altLangPrefix": "tables",
-	"dateModified": "2023-12-11"
+	"dateModified": "2026-08-27"
 }
 ---
 <section>
@@ -1101,6 +1101,52 @@
 	</ul>
 
 </section>
+
+<section>
+	<h2>Load From CSV Examples</h2>
+	<p>The examples below use CSV files sourced from the <a href="https://search.open.canada.ca/data/">Open Government Portal</a>.</p>
+
+	<h3>CSV Example - Basic</h3>
+	<p>This table shows the 2025 fuel consumption ratings for different vehicle makes and models.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-tables='{
+			"columnDefs": [ { "targets": "_all", "className": "nowrap" } ]
+		}'
+		data-wb-csv="ajax/fuel-consumption-2025-en.csv"
+	></table>
+	<p>Source code</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-tables='{ "columnDefs": [ { "targets": "_all", "className": "nowrap" } ] }'
+	data-wb-csv="ajax/fuel-consumption-2025-en.csv">&lt;/table></code></pre>
+
+	<h3>CSV Example - Preserve header case</h3>
+	<p>This table shows the Team Ontario roster for the Canada Games, with each member's sport, name and city.</p>
+	<p>This example uses <code>preserveHeaderCase</code> to keep the column headings as they're written in the CSV file instead of capitalizing the first letter of each one.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-csv='{ "url": "ajax/team-ontario-games-en.csv", "preserveHeaderCase": true }'
+	></table>
+	<p>Source code</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-csv='{ "url": "ajax/team-ontario-games-en.csv", "preserveHeaderCase": true }'>&lt;/table></code></pre>
+
+	<h3>CSV Example - Delimiter</h3>
+	<p>This table shows data that describes trips by Canadian residents travelling in Canada and abroad.</p>
+	<p>This example uses the <code>delimiter</code> option to set the character that separates the values in the CSV file, which is a semicolon here instead of a comma.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-tables='{
+			"columnDefs": [ { "targets": "_all", "className": "nowrap" } ]
+		}'
+		data-wb-csv='{ "url": "ajax/trips-en.csv", "delimiter": ";" }'
+	></table>
+	<p>Source code</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-tables='{ "columnDefs": [ { "targets": "_all", "className": "nowrap" } ] }'
+	data-wb-csv='{ "url": "ajax/trips-en.csv", "delimiter": ";" }'>&lt;/table></code></pre>
+</section>
+
 <section>
 	<h2 id="filter-emphasis">Provisional - Filtering interface emphasis</h2>
 

@@ -7,7 +7,7 @@
 	"tag": "tables",
 	"parentdir": "tables",
 	"altLangPrefix": "tables",
-	"dateModified": "2023-12-11"
+	"dateModified": "2026-08-27"
 }
 ---
 
@@ -1112,6 +1112,52 @@
 		<li><a href="../../demos/tables/tables-fltrs-fr.html#dataset-filter3">Autres filtres</a></li>
 	</ul>
 </section>
+
+<section>
+	<h2>Exemples de chargement à partir d'un fichier CSV</h2>
+	<p>Les exemples ci-dessous utilisent des fichiers CSV provenant du <a href="https://rechercher.ouvert.canada.ca/data/">Portail du gouvernement ouvert</a>.</p>
+
+	<h3>Exemple CSV - De base</h3>
+	<p>Ce tableau présente les cotes de consommation de carburant de 2025 pour différentes marques et différents modèles de véhicules.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-tables='{
+			"columnDefs": [ { "targets": "_all", "className": "nowrap" } ]
+		}'
+		data-wb-csv="ajax/fuel-consumption-2025-fr.csv"
+	></table>
+	<p>Code source</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-tables='{ "columnDefs": [ { "targets": "_all", "className": "nowrap" } ] }'
+	data-wb-csv="ajax/fuel-consumption-2025-fr.csv">&lt;/table></code></pre>
+
+	<h3>Exemple CSV - Conserver la casse des en-têtes</h3>
+	<p>Ce tableau présente la délégation d'Équipe Ontario aux Jeux du Canada, avec le sport, le nom et la ville de chaque membre.</p>
+	<p>Cet exemple utilise <code>preserveHeaderCase</code> pour conserver les en-têtes de colonne tels qu'ils sont écrits dans le fichier CSV, au lieu de mettre en majuscule la première lettre de chacun.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-csv='{ "url": "ajax/team-ontario-games-fr.csv", "preserveHeaderCase": true }'
+	></table>
+	<p>Code source</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-csv='{ "url": "ajax/team-ontario-games-fr.csv", "preserveHeaderCase": true }'>&lt;/table></code></pre>
+
+	<h3>Exemple CSV - Séparateur</h3>
+	<p>Ce tableau présente des données décrivant les voyages effectués par les résidents canadiens au Canada et à l'étranger.</p>
+	<p>Cet exemple utilise l'option <code>delimiter</code> pour indiquer le caractère qui sépare les valeurs dans le fichier CSV, soit ici un point-virgule au lieu d'une virgule.</p>
+	<table
+		class="wb-tables table table-striped table-hover"
+		data-wb-tables='{
+			"columnDefs": [ { "targets": "_all", "className": "nowrap" } ]
+		}'
+		data-wb-csv='{ "url": "ajax/trips-fr.csv", "delimiter": ";" }'
+	></table>
+	<p>Code source</p>
+	<pre><code>&lt;table class="wb-tables table table-striped table-hover"
+	data-wb-tables='{ "columnDefs": [ { "targets": "_all", "className": "nowrap" } ] }'
+	data-wb-csv='{ "url": "ajax/trips-fr.csv", "delimiter": ";" }'>&lt;/table></code></pre>
+</section>
+
 <section>
 	<h2 id="filter-emphasis">Provisionnel - Emphase sur l'interface de filtrage</h2>
 

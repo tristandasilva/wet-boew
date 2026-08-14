@@ -6,7 +6,7 @@
 	"categoryfile": "plugins",
 	"description": "Integrates the DataTables plugin into WET providing searching, sorting, filtering, pagination and other advanced features for tables.",
 	"altLangPrefix": "tables",
-	"dateModified": "2014-10-28"}
+	"dateModified": "2026-08-27"}
 ---
 <span class="wb-prettify all-pre hide"></span>
 
@@ -56,14 +56,60 @@
 		</ol>
 		<pre><code>&lt;table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false }'&gt;</code></pre>
 	</section>
+
+	<section>
+		<h3>Loading data from a CSV file</h3>
+		<ol>
+			<li>Add class <code>wb-tables</code> to an empty table tag.</li>
+			<li>Add the attribute <code>data-wb-csv="..."</code> to the table tag to render the data from the CSV file in a table format.</li>
+			<li>The value passed to <code>data-wb-csv</code> should be a path or URL to your CSV file.</li>
+			<li>Modify the default configuration like you normally would using <code>data-wb-tables</code>.</li>
+		</ol>
+		<pre><code>&lt;table class="wb-tables table table-striped table-hover" data-wb-tables='{ "ordering" : false }' data-wb-csv="ajax/consultations.csv"&gt;&lt;/table&gt;</code></pre>
+
+		<section>
+			<h4 id="csv-options">CSV options</h4>
+			<p>To pass options alongside the file, give <code>data-wb-csv</code> a JSON object instead of a plain URL. The two formats below are equivalent:</p>
+			<pre><code>&lt;table class="wb-tables table" data-wb-csv="ajax/consultations.csv"&gt;&lt;/table&gt;</code></pre>
+			<pre><code>&lt;table class="wb-tables table" data-wb-csv='{ "url": "ajax/consultations.csv" }'&gt;&lt;/table&gt;</code></pre>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Option</th>
+						<th>Type</th>
+						<th>Default</th>
+						<th>What it does</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><code>url</code></td>
+						<td>string</td>
+						<td>(required)</td>
+						<td>Path or URL to the CSV file. This is the only option when <code>data-wb-csv</code> is given a plain string.</td>
+					</tr>
+					<tr>
+						<td><code>delimiter</code></td>
+						<td>string</td>
+						<td>","</td>
+						<td>Single character separating the values in a row. By default, a comma is used.</td>
+					</tr>
+					<tr>
+						<td><code>preserveHeaderCase</code></td>
+						<td>boolean</td>
+						<td><code>false</code></td>
+						<td>By default the first letter of each column heading is capitalized. Set to <code>true</code> to display the headings exactly as they appear in the first row of the CSV file.</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</section>
 </section>
 
 <section>
 	<h2>Configuration options</h2>
 	<p>All configuration options are detailed in the <a href="https://www.datatables.net/ref">DataTables documentation</a> and is fully accessible via the <code>data-wb-tables</code> attribute or <code>window[ "wb-tables" ]</code>.</p>
 	<p>To filter a table using the filter's exact value, add the attribute <code>data-exact="true"</code> to the filter. For example: <code>&lt;select class="form-control" id="filterName" name="filterName" data-column="0" data-exact="true">&lt;/select></code></p>
-</section>
-
 <section>
 	<h2>Events</h2>
 	<table class="table">
