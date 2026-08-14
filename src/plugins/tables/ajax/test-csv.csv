@@ -1,0 +1,6 @@
+id,field_name,description,tags
+1,"Quoted, Comma","This field has a comma, and it is quoted","tag1,tag2"
+2,"Multi-Line","This is 
+a multi-line
+description","line,break"
+3,"Escaped Quotes","Company ""Global"" Inc.","quote,test"

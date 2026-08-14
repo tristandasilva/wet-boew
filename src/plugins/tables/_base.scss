@@ -917,6 +917,7 @@ table {
 
 .dataTables_wrapper {
 	clear: both;
+	overflow-x: auto;
 	position: relative;
 	zoom: 1;
 
