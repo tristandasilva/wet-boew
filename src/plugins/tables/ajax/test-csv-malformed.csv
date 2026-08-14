@@ -1,0 +1,20 @@
+code,label,,label,status
+A001,First label,no header name for this column,Duplicate header name,active
+A002,Too few fields,only three
+A003,Too many fields,extra,extra,extra,sixth field,seventh field
+A004,Blank line follows,,,inactive
+
+A005,Whitespace-only line follows,,,active
+   
+A006,Comma-only line follows,,,active
+,,,,
+A007,Bare quote mid-field,say "hi" there,unquoted field containing a quote,active
+A008,Text after closing quote,"abc"def,quote then trailing text,pending
+A009;Semicolon delimited;wrong delimiter;all one field;active
+A010,Tab	separated	fragment,tabs inside a field,not a delimiter,active
+A011,Old Mac CR line ending follows,,,activeA012,This line was CR-terminated,,,active
+A013,Trailing comma leaves an extra empty field,,,active,
+A014,Quote as the very first character of a field,"quoted, fine",back to normal,active
+A015,Unterminated quote below — everything after it is swallowed,,,active
+A016,"This quote is never closed,3,broken,active
+A017,This row is consumed by the unterminated quote above,,,active

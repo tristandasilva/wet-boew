@@ -1,0 +1,14 @@
+﻿id,name,"description, detailed",notes,amount,date
+1,Simple row,Nothing special here,,1500.00,2024-01-15
+2,"Smith, John","Comma inside a quoted field",OK,"1,250.75",2024-02-29
+3,Multi-line,"Line one
+Line two
+Line three",Embedded newlines inside a quoted field,42,2023-12-31
+4,Escaped quotes,"He said ""hello"" to everyone","Field ending in a quote: """,0,2024-03-01
+5,Everything at once,"Quotes, commas, and ""escapes"" together",,-99.5,2024-04-30
+6,,,,,
+7,   Leading and trailing spaces   ,"   quoted spaces   ",  values are not trimmed  ,  7  ,  2024-05-01  
+8,Empty quoted,"",Explicitly empty quoted string,"",""
+9,Unicode,"Café, naïve, Zoë — em dash & ellipsis…","Ontario · Québec · 中文 · العربية",3.14,2024-06-15
+10,Quote-like characters,It's a ‘smart’ “quote” test,Not real delimiters,1e3,2024-07-04
+11,Last row,No trailing newline at end of file,Flush path in the parser,999999999999,2024-08-21

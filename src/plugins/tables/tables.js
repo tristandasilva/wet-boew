@@ -78,55 +78,200 @@ var componentName = "wb-tables",
 				dom: "<'top'fil>rt<'bottom'p><'clear'>"
 			};
 
-			Modernizr.load( {
-				load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
-				testReady: function() {
-					return ( $.fn.dataTable && $.fn.dataTable.version );
-				},
-				complete: function() {
-					var $elm = $( "#" + elmId ),
-						dataTableExt = $.fn.dataTableExt,
-						settings = wb.getData( $elm, componentName ) || {};
+			// Check if the instance is referencing a CSV file to load into the DataTable
+			var csvUrl = elm.getAttribute( "data-wb-csv" );
 
-					// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
-					if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
-						settings.paging = settings.paging ? settings.paging : false;
-					}
+			if ( csvUrl ) {
 
-					/*
-					 * Extend sorting support
-					 */
-					$.extend( dataTableExt.type.order, {
-
-						// Enable internationalization support in the sorting
-						"html-pre": function( a ) {
-							return wb.normalizeDiacritics(
-								!a ? "" : a.replace ?
-									a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
-							);
-						},
-						"string-case-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-						"string-pre": function( a ) {
-							return wb.normalizeDiacritics( a );
-						},
-
-						// Formatted number sorting
-						"formatted-num-asc": function( a, b ) {
-							return wb.formattedNumCompare( a, b );
-						},
-						"formatted-num-desc": function( a, b ) {
-							return wb.formattedNumCompare( b, a );
+				fetch( csvUrl )
+					.then( function( response ) {
+						if ( !response.ok ) {
+							throw new Error( "Failed to fetch CSV file from " + csvUrl + ": " + response.statusText );
 						}
-					} );
+						return response.text();
+					} )
+					.then( function( csvText ) {
 
-					// Create the DataTable object
-					$elm.dataTable( $.extend( true, {}, defaults, window[ componentName ], settings ) );
-				}
-			} );
+						// Parse the CSV text
+						var parsedCsvText = parseCSV( csvText );
+
+						// Build the table header from the parsed CSV columns
+						buildHead( document.getElementById( elmId ), parsedCsvText.headers );
+
+						// Load the DataTable with the parsed CSV data
+						loadDataTable( elmId, {
+							data: parsedCsvText.data,
+							columns: parsedCsvText.headers.map( function( header ) {
+								return { data: header };
+							} ),
+							deferRender: true // To improve performance (only the visible page is rendered to the DOM)
+						} );
+					} )
+					.catch( function( e ) {
+						console.error( e );
+					} );
+			} else {
+
+				// Load table normally, no CSV file involved
+				loadDataTable( elmId );
+			}
 		}
 	},
+
+	loadDataTable = function( elmId, extraSettings ) {
+
+		Modernizr.load( {
+			load: [ "site!deps/jquery.dataTables" + wb.getMode() + ".js" ],
+			testReady: function() {
+				return ( $.fn.dataTable && $.fn.dataTable.version );
+			},
+			complete: function() {
+				var $elm = $( "#" + elmId ),
+					dataTableExt = $.fn.dataTableExt,
+					settings = wb.getData( $elm, componentName ) || {},
+					config;
+
+				// Explicitly deactivate the paging for the filterEmphasis provisional feature/styling when not configured
+				if ( $elm.hasClass( "provisional" ) && $elm.hasClass( "filterEmphasis" ) ) {
+					settings.paging = settings.paging ? settings.paging : false;
+				}
+
+				/*
+				 * Extend sorting support
+				 */
+				$.extend( dataTableExt.type.order, {
+
+					// Enable internationalization support in the sorting
+					"html-pre": function( a ) {
+						return wb.normalizeDiacritics(
+							!a ? "" : a.replace ?
+								a.replace( /<.*?>/g, "" ).toLowerCase() : a + ""
+						);
+					},
+					"string-case-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+					"string-pre": function( a ) {
+						return wb.normalizeDiacritics( a );
+					},
+
+					// Formatted number sorting
+					"formatted-num-asc": function( a, b ) {
+						return wb.formattedNumCompare( a, b );
+					},
+					"formatted-num-desc": function( a, b ) {
+						return wb.formattedNumCompare( b, a );
+					}
+				} );
+
+				config = $.extend( true, {}, defaults, window[ componentName ], settings );
+
+				// Merge any extra settings (e.g., CSV-derived data/columns) using
+				// a shallow extend so the potentially large data array is passed
+				// by reference rather than deep-cloned.
+				if ( extraSettings ) {
+					config = $.extend( config, extraSettings );
+				}
+
+				// Create the DataTable object
+				$elm.dataTable( config );
+			}
+		} );
+	},
+
+	// Build <thead> row from parsed CSV header names
+	buildHead = function( table, headers ) {
+
+		var thead = document.createElement( "thead" ),
+			tr = document.createElement( "tr" );
+
+		headers.forEach( function( field ) {
+			var th = document.createElement( "th" );
+			th.textContent = field;
+			tr.appendChild( th );
+		} );
+		thead.appendChild( tr );
+		table.appendChild( thead );
+	},
+
+	// Small CSV parser, leaves values untrimmed
+	parseCSV = function( text ) {
+
+		// Remove a UTF-8 byte-order mark if present, so the first header
+		// name doesn't show as "\uFEFF" + name
+		if ( text.charCodeAt( 0 ) === 0xFEFF ) {
+			text = text.slice( 1 );
+		}
+
+		var rows = [],
+			row = [],
+			header = "",
+			inQuotes = false,
+			i = 0,
+			headers, data, character;
+
+		while ( i < text.length ) {
+			character = text[ i ];
+
+			if ( inQuotes ) {
+				if ( character === "\"" ) {
+					if ( text[ i + 1 ] === "\"" ) {
+						header += "\""; // Escaped quote
+						i += 2;
+						continue;
+					}
+					inQuotes = false;
+					i++;
+					continue;
+				}
+				header += character;
+				i++;
+				continue;
+			}
+
+			if ( character === "\"" ) {
+				inQuotes = true;
+			} else if ( character === "," ) {
+				row.push( header );
+				header = "";
+			} else if ( character === "\n" ) {
+				row.push( header );
+				rows.push( row );
+				row = [];
+				header = "";
+			} else if ( character !== "\r" ) { // Ignore CR (handles CRLF)
+				header += character;
+			}
+			i++;
+		}
+
+		// Flush the final header/row (files without a trailing newline)
+		if ( header !== "" || row.length > 0 ) {
+			row.push( header );
+			rows.push( row );
+		}
+
+		// Drop fully empty lines
+		rows = rows.filter( function( row ) {
+			return !( row.length === 1 && row[ 0 ] === "" );
+		} );
+
+		if ( rows.length === 0 ) {
+			return { headers: [], data: [] };
+		}
+
+		headers = rows[ 0 ];
+		data = rows.slice( 1 ).map( function( row ) {
+			var rowObj = {};
+			headers.forEach( function( name, index ) {
+				rowObj[ name ] = index < row.length ? row[ index ] : "";
+			} );
+			return rowObj;
+		} );
+
+		return { headers: headers, data: data };
+	},
+
 	updatePaginationMarkup = function( $pagination, setFocusOnId ) {
 
 		var ol = document.createElement( "OL" ),
